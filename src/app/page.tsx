@@ -3,6 +3,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Navbar } from '@/components/asc/Navbar';
 import { BannerCarousel } from '@/components/asc/BannerCarousel';
+import { MixMatchSection } from '@/components/asc/MixMatchSection';
 import { CatalogSection } from '@/components/asc/CatalogSection';
 import { Footer } from '@/components/asc/Footer';
 import { ProductDetailModal } from '@/components/asc/ProductDetailModal';
@@ -58,6 +59,8 @@ export default function Page() {
         matchesCat = product.platforms.includes('shopee');
       } else if (activeCategory === 'tiktok' || activeCategory === 'tiktokshop') {
         matchesCat = product.platforms.includes('tiktok');
+      } else if (activeCategory === 'mix-match') {
+        matchesCat = true;
       } else if (activeCategory !== 'all') {
         matchesCat = product.category === activeCategory;
       }
@@ -91,18 +94,37 @@ export default function Page() {
         activeCategory={activeCategory}
         onSelectCategory={(cat) => {
           setActiveCategory(cat);
-          scrollToCatalog();
+          if (cat === 'mix-match') {
+            const el = document.getElementById('mix-match-section');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          } else {
+            scrollToCatalog();
+          }
         }}
       />
 
       {/* 2. Banner Berjalan / Slider Horizontal (Langsung di paling atas dengan Logo ASC terintegrasi & siap slot iklan) */}
       <BannerCarousel />
 
-      {/* 3. Katalog Belanja Terkurasi (Tops, Bottoms, Gamis, Abaya, Hijab, Aksesoris) */}
+      {/* 3. Mix & Match Style Studio (Slot Foto Full Look + Kotak Preview Top, Bottom, Tas, Sepatu) */}
+      <MixMatchSection
+        onSelectCategory={(cat) => {
+          setActiveCategory(cat);
+          scrollToCatalog();
+        }}
+      />
+
+      {/* 4. Katalog Belanja Terkurasi (Tops, Bottoms, Tas, Sepatu, Gamis, Abaya, Hijab, Aksesoris) */}
       <CatalogSection
         products={filteredProducts}
         activeCategory={activeCategory}
-        onSelectCategory={setActiveCategory}
+        onSelectCategory={(cat) => {
+          setActiveCategory(cat);
+          if (cat === 'mix-match') {
+            const el = document.getElementById('mix-match-section');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          }
+        }}
         onOpenDetail={(product) => setSelectedProduct(product)}
         wishlist={wishlist}
         onToggleWishlist={handleToggleWishlist}

@@ -22,7 +22,7 @@ export function Navbar({
 }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Navigation categories including Tas, Sepatu, Shopee, and TikTok Shop
+  // Navigation categories including Tas, Sepatu, Mix & Match, Shopee, and TikTok Shop
   const menuItems = [
     { id: 'tops', label: 'Tops' },
     { id: 'bottoms', label: 'Bottoms' },
@@ -32,15 +32,23 @@ export function Navbar({
     { id: 'abaya', label: 'Abaya' },
     { id: 'hijab', label: 'Hijab' },
     { id: 'accessories', label: 'Aksesoris' },
+    { id: 'mix-match', label: 'Mix & Match' },
     { id: 'shopee', label: 'Shopee' },
     { id: 'tiktok', label: 'TikTok Shop' },
   ];
 
   const handleNavClick = (categoryId: string) => {
     onSelectCategory(categoryId);
-    const element = document.getElementById('catalog-section');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    if (categoryId === 'mix-match') {
+      const element = document.getElementById('mix-match-section');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      const element = document.getElementById('catalog-section');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
     setMobileMenuOpen(false);
   };
@@ -90,7 +98,7 @@ export function Navbar({
           </div>
 
           {/* Menu Items for Desktop */}
-          <nav className="hidden md:flex items-center gap-2.5 lg:gap-4 text-[11px] lg:text-xs font-medium tracking-wider uppercase text-[#4d5541]">
+          <nav className="hidden md:flex items-center gap-2 lg:gap-3 text-[11px] font-medium tracking-wider uppercase text-[#4d5541]">
             {menuItems.map((item) => {
               const isActive = activeCategory === item.id;
               return (

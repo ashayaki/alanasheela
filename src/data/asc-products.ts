@@ -1,0 +1,474 @@
+export interface ASCProduct {
+  id: string;
+  name: string;
+  category: 'tops' | 'bottoms' | 'gamis' | 'abaya' | 'hijab' | 'accessories';
+  categoryLabel: string;
+  color: string;
+  price: number;
+  originalPrice: number;
+  rating: number;
+  soldCount: string;
+  image: string;
+  badge?: string;
+  isLalaPick?: boolean;
+  description: string;
+  fabric: string;
+  lalaNote: string;
+  platforms: ('shopee' | 'tiktok')[];
+  marketplaceName: string;
+  affiliateUrl: string;
+}
+
+export const ASC_PRODUCTS: ASCProduct[] = [
+  // --- GAMIS ---
+  {
+    id: 'asc-gm-01',
+    name: 'Gamis Kondangan Flowy Sage Champagne — Lala Look',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Sage Champagne',
+    price: 185000,
+    originalPrice: 245000,
+    rating: 4.9,
+    soldCount: '1.4rb+',
+    image: '/lala-dress/lala-kondangan-01-sage-champagne.jpg',
+    badge: 'Paling Laris',
+    isLalaPick: true,
+    description:
+      'Gamis anggun bahan ceruty babydoll premium lapis furing lembut. Nyaman tidak menerawang dengan aksen kerut manis di pinggang.',
+    fabric: 'Ceruty Babydoll Premium + Furing Hyget',
+    lalaNote:
+      'Warna sage champagne ini kalem banget, cocok buat kondangan siang maupun malam!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-gm-02',
+    name: 'Gamis A-Line Dusty Rose Floral Tulle',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Dusty Rose',
+    price: 198000,
+    originalPrice: 260000,
+    rating: 4.8,
+    soldCount: '890+',
+    image: '/lala-dress/lala-kondangan-02-dusty-rose.jpg',
+    badge: 'Lala Pick',
+    isLalaPick: true,
+    description:
+      'Gamis feminin bernuansa dusty rose dengan sentuhan tulle halus dan bordir minimalis. Potongan leluasa dan wudhu friendly.',
+    fabric: 'Maxmara Silk Lux mix Tulle Bordir',
+    lalaNote:
+      'Dusty rose-nya manis dan bikin kulit kelihatan lebih cerah berseri.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-gm-03',
+    name: 'Gamis Daily Simple Gen-Z Sandstone',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Sandstone Krem',
+    price: 145000,
+    originalPrice: 195000,
+    rating: 4.9,
+    soldCount: '2.1rb+',
+    image: '/lala-dress/gamis-genz-1.jpg',
+    badge: 'Favorit Santai',
+    isLalaPick: true,
+    description:
+      'Gamis kasual modis dengan saku samping aktif dan kancing depan busui friendly. Pas dipakai kuliah, kajian, atau hangout.',
+    fabric: 'Crinkle Airflow Premium (Anti Kusut)',
+    lalaNote:
+      'Tanpa perlu disetrika udah rapi banget. Gamis andalan kalau lagi buru-buru!',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+  {
+    id: 'asc-gm-04',
+    name: 'Gamis Nordic Pleats Powder Periwinkle',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Powder Periwinkle',
+    price: 178000,
+    originalPrice: 225000,
+    rating: 4.8,
+    soldCount: '650+',
+    image: '/lala-dress/lala-kondangan-03-powder-periwinkle.jpg',
+    badge: 'Trending',
+    isLalaPick: false,
+    description:
+      'Gamis plisket rapi di bagian dada dengan lengan balon berkaret wudhu friendly. Warna pastel dingin yang bikin adem.',
+    fabric: 'Shakila Twill Stretch',
+    lalaNote:
+      'Bahannya dingin dan jatuhnya bagus banget pas dibawa jalan.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-gm-05',
+    name: 'Gamis Gala Elegant Peach Nectar',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Peach Nectar',
+    price: 189000,
+    originalPrice: 240000,
+    rating: 4.8,
+    soldCount: '520+',
+    image: '/lala-dress/lala-kondangan-04-peach-nectar.jpg',
+    badge: 'Warna Segar',
+    isLalaPick: false,
+    description:
+      'Nuansa peach ceria yang tetap sopan. Dilengkapi tali samping untuk menyesuaikan siluet tubuh.',
+    fabric: 'Woolpeach Premium Halus',
+    lalaNote:
+      'Warna cerah yang bikin foto OOTD langsung standout!',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+
+  // --- ABAYA ---
+  {
+    id: 'asc-ab-01',
+    name: 'Abaya 2-Layer Saudi Cut Midnight Noir',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Hitam Jetblack',
+    price: 245000,
+    originalPrice: 320000,
+    rating: 4.9,
+    soldCount: '3.2rb+',
+    image: '/lala-dress/abaya-2layer-1.jpg',
+    badge: 'Best Recommendation',
+    isLalaPick: true,
+    description:
+      'Abaya model dua lapis dengan jahitan tepi rapi khas Timur Tengah. Bahan jatuh pekat dan tidak terawang sama sekali.',
+    fabric: 'Jetblack Bonanza Arabica',
+    lalaNote:
+      'Model 2-layer ini bikin look kelihatan tinggi dan ramping dengan aura syar’i yang modis.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-ab-02',
+    name: 'Abaya Modern Batwing Nordic Minimalist',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Nordic Navy',
+    price: 215000,
+    originalPrice: 275000,
+    rating: 4.8,
+    soldCount: '980+',
+    image: '/lala-dress/lala-nordic-12-winter-navy.jpg',
+    badge: 'Lala Pick',
+    isLalaPick: true,
+    description:
+      'Abaya potongan batwing longgar yang sangat nyaman untuk ruang gerak bebas. Manset tangan kancing gold chic.',
+    fabric: 'Linen Rami Soft Touch',
+    lalaNote:
+      'Sangat loose dan sejuk, nyaman dipakai seharian di cuaca panas.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-ab-03',
+    name: 'Abaya Kimono Cardigan Terracotta Rose',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Terracotta Krem',
+    price: 228000,
+    originalPrice: 290000,
+    rating: 4.8,
+    soldCount: '740+',
+    image: '/lala-dress/lala-look-02-terracotta-rose.jpg',
+    badge: 'Earth Tone',
+    isLalaPick: false,
+    description:
+      'Bisa dipakai sebagai abaya tertutup atau outerwear terbuka. Menggunakan belt lepas pasang.',
+    fabric: 'Poli Katun Twill Premium',
+    lalaNote:
+      'Bisa dijadiin outer juga, multifungsi buat mix & match!',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+
+  // --- TOPS (ATASAN) ---
+  {
+    id: 'asc-tp-01',
+    name: 'Tops — Blouse Tunik Asimetris Olive Pastel',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Soft Olive',
+    price: 119000,
+    originalPrice: 155000,
+    rating: 4.8,
+    soldCount: '1.8rb+',
+    image: '/lala-dress/lala-nordic-10-olive-cream.jpg',
+    badge: 'Lala Pick',
+    isLalaPick: true,
+    description:
+      'Atasan tunik elegan dengan potongan bawah asimetris yang modern. Menutup pinggul dengan sempurna dan sopan.',
+    fabric: 'Katun Rayon Twill Import',
+    lalaNote:
+      'Warna olive kremnya adem banget dipadu celana kulot atau rok plisket.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-tp-02',
+    name: 'Tops — Kemeja Oversize Linen Krem Alami',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Krem Alabaster',
+    price: 98000,
+    originalPrice: 139000,
+    rating: 4.9,
+    soldCount: '4.5rb+',
+    image: '/lala-dress/lala-nordic-01-frosted-aqua.jpg',
+    badge: 'Wajib Punya',
+    isLalaPick: true,
+    description:
+      'Kemeja basic oversize ala Korean modest look. Bahan adem, tidak gerah, dan kerah rapi.',
+    fabric: 'Linen Katun Lembut',
+    lalaNote:
+      'Baju basic yang wajib ada di lemari! Gampang dipadukan dengan hijab apa saja.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-tp-03',
+    name: 'Tops — Outer Blazer Semi-Formal Sage Lavender',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Sage Lavender',
+    price: 165000,
+    originalPrice: 215000,
+    rating: 4.8,
+    soldCount: '870+',
+    image: '/lala-look-06-sage-lavender.jpg',
+    badge: 'Kantor & Acara',
+    isLalaPick: false,
+    description:
+      'Outer blazer santai tanpa kancing yang memberi kesan rapi seketika pada kaos atau blouse dalamanmu.',
+    fabric: 'Semi Wool Poly Stretch',
+    lalaNote:
+      'Pakai ini langsung auto kelihatan siap meeting atau hadir ke acara formal.',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+
+  // --- BOTTOMS (BAWAHAN) ---
+  {
+    id: 'asc-bt-01',
+    name: 'Bottoms — Rok Plisket Flare Silk Krem Lembut',
+    category: 'bottoms',
+    categoryLabel: 'Bottoms',
+    color: 'Krem Vanila',
+    price: 110000,
+    originalPrice: 149000,
+    rating: 4.9,
+    soldCount: '3.9rb+',
+    image: '/lala-dress/lala-look-04-olive-saffron.jpg',
+    badge: 'Lala Pick',
+    isLalaPick: true,
+    description:
+      'Rok plisket lipatan rapi dan tahan cuci. Pinggang full karet elastis tidak membekas dan memberi efek flowy ramping.',
+    fabric: 'Hyget Super Silk Plisket',
+    lalaNote:
+      'Plisketnya rapat dan gak gampang pudar biarpun dicuci berkali-kali.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-bt-02',
+    name: 'Bottoms — Celana Kulot Highwaist Linen Olive',
+    category: 'bottoms',
+    categoryLabel: 'Bottoms',
+    color: 'Warm Olive',
+    price: 125000,
+    originalPrice: 169000,
+    rating: 4.8,
+    soldCount: '2.6rb+',
+    image: '/lala-dress/lala-nordic-03-lime-haze.jpg',
+    badge: 'Nyaman Seharian',
+    isLalaPick: false,
+    description:
+      'Kulot berpotongan lurus longgar yang menyamarkan bentuk kaki. Bahan linen berserat halus dengan saku di kanan-kiri.',
+    fabric: 'Linen Angel Premium',
+    lalaNote:
+      'Potongannya bikin kaki kelihatan jenjang dan gak ketat sama sekali.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-bt-03',
+    name: 'Bottoms — Rok A-Line Kancing Depan Terracotta',
+    category: 'bottoms',
+    categoryLabel: 'Bottoms',
+    color: 'Terracotta Sand',
+    price: 115000,
+    originalPrice: 150000,
+    rating: 4.8,
+    soldCount: '1.1rb+',
+    image: '/lala-dress/lala-nordic-11-sunset-terracotta.jpg',
+    badge: 'Earth Tone',
+    isLalaPick: false,
+    description:
+      'Rok model payung A-line dengan aksen kancing kayu estetik di bagian depan. Cocok untuk vintage modest look.',
+    fabric: 'Katun Twill Unwashed',
+    lalaNote:
+      'Aksen kancingnya manis banget, pas buat jalan-jalan akhir pekan.',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+
+  // --- HIJAB ---
+  {
+    id: 'asc-hj-01',
+    name: 'Hijab — Pashmina Silk Shimmer Serene Olive',
+    category: 'hijab',
+    categoryLabel: 'Hijab',
+    color: 'Soft Shimmer Olive',
+    price: 49000,
+    originalPrice: 75000,
+    rating: 4.9,
+    soldCount: '6.7rb+',
+    image: '/lala-dress/lala-nordic-05-fjord-serenity.jpg',
+    badge: 'Super Best Seller',
+    isLalaPick: true,
+    description:
+      'Pashmina silk dengan kilau lembut tidak norak. Mudah dibentuk, tegak di dahi, dan tidak licin saat dipakai dengan inner.',
+    fabric: 'Cradenza Silk Import',
+    lalaNote:
+      'Gampang banget dibentuk dan langsung tegak rapi seharian!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-hj-02',
+    name: 'Hijab — Segiempat Voal Ultrafine Laser Cut Krem',
+    category: 'hijab',
+    categoryLabel: 'Hijab',
+    color: 'Krem Sand',
+    price: 42000,
+    originalPrice: 65000,
+    rating: 4.9,
+    soldCount: '8.4rb+',
+    image: '/lala-dress/lala-kondangan-06-buttercup-yellow.jpg',
+    badge: 'Lala Pick',
+    isLalaPick: true,
+    description:
+      'Hijab voal premium dengan pinggiran laser cut gelombang estetik. Tidak dengung di telinga dan adem dipakai seharian.',
+    fabric: 'Voal Ultrafine Signature',
+    lalaNote:
+      'Hijab ternyaman buat harian. Bahannya gak budek di kuping!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-hj-03',
+    name: 'Hijab — Pashmina Kaos Rayon Adem Meleyot',
+    category: 'hijab',
+    categoryLabel: 'Hijab',
+    color: 'Muted Dusty Mauve',
+    price: 39000,
+    originalPrice: 59000,
+    rating: 4.8,
+    soldCount: '5.1rb+',
+    image: '/lala-dress/lala-kondangan-05-misty-mauve.jpg',
+    badge: 'Gaya Meleyot Viral',
+    isLalaPick: false,
+    description:
+      'Pashmina kaos elastis super jatuh yang pas untuk gaya hijab meleyot santai khas Gen-Z.',
+    fabric: 'Rayon Spandex Super Soft',
+    lalaNote:
+      'Tinggal lilit tanpa jarum pentul juga udah nempel di kepala.',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+
+  // --- AKSESORIS ---
+  {
+    id: 'asc-ak-01',
+    name: 'Aksesoris — Bros Dagu Mutiara Barok Minimalis',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Silver Pearl',
+    price: 28000,
+    originalPrice: 45000,
+    rating: 4.9,
+    soldCount: '2.8rb+',
+    image: '/lala-dress/lala-look-07-iceblue-silver.jpg',
+    badge: 'Lala Pick',
+    isLalaPick: true,
+    description:
+      'Bros semat dagu kecil dengan mutiara barok elegan. Peniti tajam anti merusak serat kain hijab kesayanganmu.',
+    fabric: 'Alloy Anti Karat & Mutiara Sintetis Barok',
+    lalaNote:
+      'Jarumnya tajem banget jadi gak bikin hijab seratnya ketarik!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-ak-02',
+    name: 'Aksesoris — Tas Bahu Estetik Shoulder Bag Krem',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Ivory Cream',
+    price: 135000,
+    originalPrice: 189000,
+    rating: 4.8,
+    soldCount: '1.9rb+',
+    image: '/lala-dress/lala-look-03-cobalt-platinum.jpg',
+    badge: 'Pelengkap OOTD',
+    isLalaPick: true,
+    description:
+      'Tas selempang / bahu minimalis muat dompet, HP, dan alat makeup kecil. Bahan kulit sintetis tebal dan mudah dilap.',
+    fabric: 'PU Leather Sintetis Tebal',
+    lalaNote:
+      'Ukurannya pas banget dibawa jalan, warnanya cocok ke semua baju!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-ak-03',
+    name: 'Aksesoris — Ikat Pinggang Tipis Gold Buckle',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Warm Brown & Gold',
+    price: 32000,
+    originalPrice: 50000,
+    rating: 4.8,
+    soldCount: '3.4rb+',
+    image: '/lala-dress/lala-nordic-07-autumn-haze.jpg',
+    badge: 'Pemanis Gamis',
+    isLalaPick: false,
+    description:
+      'Belt ramping untuk mempertegas garis pinggang saat memakai gamis atau tunik berpotongan longgar.',
+    fabric: 'Sintetis Leather + Metal Buckle',
+    lalaNote:
+      'Bikin baju yang kebesaran langsung kelihatan pas dan modis.',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+];

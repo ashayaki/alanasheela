@@ -217,7 +217,7 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     isLalaPick: true,
     description:
       'Blouse siluet peplum modern yang elegan, lembut, dan simple. Potongan ramping rapi dengan kerah klasik dan bukaan kancing depan. Produk ini hanya mencakup atasan blouse (rok & hijab untuk referensi look). Varian warna lengkap dapat langsung dicek di halaman toko partner.',
-    fabric: 'Kain Lembut Jatuh Premium (Ukuran: S to M, L to XL, XXL)',
+    fabric: 'Katun Premium Lembut (Premium Cotton)',
     sizes: 'S to M, L to XL, XXL',
     lalaNote:
       'Blouse putih ini potongannya pas banget di pinggang, memberi kesan ramping dan rapi seketika. Cocok buat outfit ngantor atau hangout santai!',

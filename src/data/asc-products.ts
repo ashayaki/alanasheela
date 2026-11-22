@@ -212,7 +212,7 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     originalPrice: 0,
     rating: 4.9,
     soldCount: '3.8rb+',
-    image: '/products/blouse-elegan-lembut-simple.webp',
+    image: '/products/blouse-cotton-editorial.webp',
     badge: 'Paling Laris',
     isLalaPick: true,
     description:

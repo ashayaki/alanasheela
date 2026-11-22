@@ -1,7 +1,7 @@
 export interface ASCProduct {
   id: string;
   name: string;
-  category: 'tops' | 'bottoms' | 'gamis' | 'abaya' | 'hijab' | 'accessories';
+  category: 'tops' | 'bottoms' | 'gamis' | 'abaya' | 'hijab' | 'accessories' | 'tas' | 'sepatu';
   categoryLabel: string;
   color: string;
   price: number;
@@ -429,22 +429,22 @@ export const ASC_PRODUCTS: ASCProduct[] = [
   },
   {
     id: 'asc-ak-02',
-    name: 'Aksesoris — Tas Bahu Estetik Shoulder Bag Krem',
+    name: 'Aksesoris — Kacamata Retro Frame Krem Estetik',
     category: 'accessories',
     categoryLabel: 'Aksesoris',
     color: 'Ivory Cream',
-    price: 135000,
-    originalPrice: 189000,
+    price: 39000,
+    originalPrice: 65000,
     rating: 4.8,
     soldCount: '1.9rb+',
     image: '/lala-dress/lala-look-03-cobalt-platinum.jpg',
     badge: 'Pelengkap OOTD',
     isLalaPick: true,
     description:
-      'Tas selempang / bahu minimalis muat dompet, HP, dan alat makeup kecil. Bahan kulit sintetis tebal dan mudah dilap.',
-    fabric: 'PU Leather Sintetis Tebal',
+      'Kacamata gaya bingkai kotak vintage dengan lensa perlindungan UV400. Nyaman dipakai foto OOTD outdoor.',
+    fabric: 'Acetate Premium + UV400 Protection',
     lalaNote:
-      'Ukurannya pas banget dibawa jalan, warnanya cocok ke semua baju!',
+      'Bikin look kasual langsung naik kelas saat foto di luar ruangan.',
     platforms: ['shopee'],
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://shopee.co.id',
@@ -470,5 +470,141 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     platforms: ['tiktok'],
     marketplaceName: 'TikTok Shop',
     affiliateUrl: 'https://www.tiktok.com',
+  },
+
+  // --- TAS ---
+  {
+    id: 'asc-tas-01',
+    name: 'Tas — Minimalist Shoulder Bag Krem Ivory — Lala Look',
+    category: 'tas',
+    categoryLabel: 'Tas',
+    color: 'Ivory Krem',
+    price: 135000,
+    originalPrice: 189000,
+    rating: 4.9,
+    soldCount: '4.2rb+',
+    image: '/lala-dress/lala-look-03-cobalt-platinum.jpg',
+    badge: 'Favorit Lala',
+    isLalaPick: true,
+    description:
+      'Tas bahu estetik dengan siluet melengkung modern. Muat handphone, dompet lipat, dan pouch makeup kecil.',
+    fabric: 'Smooth Vegan Leather (Mudah Dibersihkan)',
+    lalaNote:
+      'Ukurannya pas banget dibawa jalan santai atau kondangan, warnanya masuk ke semua baju!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-tas-02',
+    name: 'Tas — Puffy Cloud Bag Selempang Sage Green',
+    category: 'tas',
+    categoryLabel: 'Tas',
+    color: 'Sage Green',
+    price: 99000,
+    originalPrice: 145000,
+    rating: 4.8,
+    soldCount: '2.7rb+',
+    image: '/lala-dress/lala-nordic-10-olive-cream.jpg',
+    badge: 'Tren Gen-Z',
+    isLalaPick: false,
+    description:
+      'Tas selempang empuk bertekstur quilted awan yang ringan dan playful. Tali selempang adjustable lembut di pundak.',
+    fabric: 'Nylon Quilted Waterproof + Dacron Empuk',
+    lalaNote:
+      'Ringan banget di pundak, cocok buat ngampus atau nongkrong di cafe.',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+  {
+    id: 'asc-tas-03',
+    name: 'Tas — Casual Canvas Tote Bag Minimalist Sandstone',
+    category: 'tas',
+    categoryLabel: 'Tas',
+    color: 'Sandstone Khaki',
+    price: 89000,
+    originalPrice: 129000,
+    rating: 4.8,
+    soldCount: '3.1rb+',
+    image: '/lala-dress/lala-look-04-olive-saffron.jpg',
+    badge: 'Muat Banyak',
+    isLalaPick: false,
+    description:
+      'Tote bag kanvas tebal dengan resleting penutup dan saku rahasia di dalam. Muat laptop 14 inch dan buku catatan.',
+    fabric: 'Canvas Twill Premium 12oz',
+    lalaNote:
+      'Kuat dan muat banyak barang bawaan tanpa kelihatan bulky.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+
+  // --- SEPATU ---
+  {
+    id: 'asc-sp-01',
+    name: 'Sepatu — Flat Mules Pointy Toe Krem Vanila — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: 'Krem Vanila',
+    price: 145000,
+    originalPrice: 199000,
+    rating: 4.9,
+    soldCount: '3.8rb+',
+    image: '/lala-dress/lala-kondangan-01-sage-champagne.jpg',
+    badge: 'Super Nyaman',
+    isLalaPick: true,
+    description:
+      'Sepatu mules ujung lancip yang memberi ilusi kaki lebih ramping. Dilengkapi busa bantalan memory foam anti pegal.',
+    fabric: 'Soft Vegan Leather + Insole Memory Foam Double Empuk',
+    lalaNote:
+      'Bantalan telapaknya empuk pol, gak bikin lecet atau pegal biarpun keliling seharian!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
+  },
+  {
+    id: 'asc-sp-02',
+    name: 'Sepatu — Chunky Loafers Nordic Minimalist Sand',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: 'Sandstone Beige',
+    price: 175000,
+    originalPrice: 235000,
+    rating: 4.8,
+    soldCount: '1.9rb+',
+    image: '/lala-dress/gamis-genz-1.jpg',
+    badge: 'Chic Modern',
+    isLalaPick: true,
+    description:
+      'Sepatu loafers sol tebal ringan yang modis. Memberikan tambahan tinggi badan yang natural dan nyaman dipakai melangkah.',
+    fabric: 'Matte PU Leather + Sol TPR Ringan Antislip',
+    lalaNote:
+      'Keren banget dipadukan celana kulot atau rok plisket ala look Korea!',
+    platforms: ['tiktok'],
+    marketplaceName: 'TikTok Shop',
+    affiliateUrl: 'https://www.tiktok.com',
+  },
+  {
+    id: 'asc-sp-03',
+    name: 'Sepatu — Block Heels 3cm Ivory Pearl Kondangan',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: 'Ivory Pearl',
+    price: 168000,
+    originalPrice: 220000,
+    rating: 4.8,
+    soldCount: '2.4rb+',
+    image: '/lala-dress/lala-kondangan-02-dusty-rose.jpg',
+    badge: 'Kondangan Cantik',
+    isLalaPick: false,
+    description:
+      'Sandal heels hak tahu setinggi 3cm yang sangat stabil. Tali silang anggun dengan aksen mutiara manis.',
+    fabric: 'Microfiber Silk Glossy + Hak Tahu Kokoh',
+    lalaNote:
+      'Tingginya pas 3cm, jalan tetap stabil gak goyang dan look kelihatan anggun jenjang.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://shopee.co.id',
   },
 ];

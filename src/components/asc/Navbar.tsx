@@ -22,7 +22,7 @@ export function Navbar({
 }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Navigation categories including Shopee and TikTok Shop
+  // Navigation categories including Tas, Sepatu, Shopee, and TikTok Shop
   const menuItems = [
     { id: 'tops', label: 'Tops' },
     { id: 'bottoms', label: 'Bottoms' },
@@ -30,6 +30,8 @@ export function Navbar({
     { id: 'abaya', label: 'Abaya' },
     { id: 'hijab', label: 'Hijab' },
     { id: 'accessories', label: 'Aksesoris' },
+    { id: 'tas', label: 'Tas' },
+    { id: 'sepatu', label: 'Sepatu' },
     { id: 'shopee', label: 'Shopee' },
     { id: 'tiktok', label: 'TikTok Shop' },
   ];
@@ -88,7 +90,7 @@ export function Navbar({
           </div>
 
           {/* Menu Items for Desktop */}
-          <nav className="hidden md:flex items-center gap-4 lg:gap-6 text-xs font-medium tracking-wider uppercase text-[#4d5541]">
+          <nav className="hidden md:flex items-center gap-2.5 lg:gap-4 text-[11px] lg:text-xs font-medium tracking-wider uppercase text-[#4d5541]">
             {menuItems.map((item) => {
               const isActive = activeCategory === item.id;
               return (

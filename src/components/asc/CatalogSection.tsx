@@ -21,7 +21,7 @@ export function CatalogSection({
   wishlist,
   onToggleWishlist,
 }: CatalogSectionProps) {
-  // Category list including Shopee and TikTok Shop
+  // Category list including Tas, Sepatu, Shopee, and TikTok Shop
   const categories = [
     { id: 'all', label: 'Semua' },
     { id: 'tops', label: 'Tops' },
@@ -30,6 +30,8 @@ export function CatalogSection({
     { id: 'abaya', label: 'Abaya' },
     { id: 'hijab', label: 'Hijab' },
     { id: 'accessories', label: 'Aksesoris' },
+    { id: 'tas', label: 'Tas' },
+    { id: 'sepatu', label: 'Sepatu' },
     { id: 'shopee', label: 'Shopee' },
     { id: 'tiktok', label: 'TikTok Shop' },
   ];

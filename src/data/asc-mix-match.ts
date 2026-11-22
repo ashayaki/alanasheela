@@ -36,7 +36,7 @@ export const ASC_MIX_MATCH_LOOKS: MixMatchLook[] = [
     badge: 'Signature Lala',
     fullLookImage: '/lala-dress/lala-nordic-10-olive-cream.jpg',
     lalaQuote:
-      'Paduan blouse tunik olive dengan kulot linen bikin look kelihatan jenjang dan santai, tinggal dipadu shoulder bag krem dan mules lancip biar tetap chic!',
+      'Paduan blouse tunik putih dengan kulot linen bikin look kelihatan jenjang dan santai, tinggal dipadu shoulder bag krem dan mules lancip biar tetap chic!',
     items: {
       top: {
         type: 'top',
@@ -222,13 +222,13 @@ export const ASC_MIX_MATCH_LOOKS: MixMatchLook[] = [
         type: 'top',
         typeLabel: 'Atasan (Top)',
         categoryTab: 'tops',
-        productId: 'asc-tp-01',
-        name: 'Blouse Elegan Lembut Simple',
-        color: 'Putih Bersih (Multi Varian)',
-        image: '/products/blouse-elegan-lembut-simple.webp',
+        productId: 'asc-tp-02',
+        name: 'Blouse Kondangan Brokat Floral',
+        color: 'Dusty Rose Lilac',
+        image: '/products/blouse-kondangan-brokat-floral.webp',
         platform: 'shopee',
         marketplaceName: 'Shopee',
-        affiliateUrl: 'https://s.shopee.co.id/8KrHWSxaaI',
+        affiliateUrl: 'https://s.shopee.co.id/9V3EwEiOIE',
       },
       bottom: {
         type: 'bottom',

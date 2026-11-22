@@ -235,7 +235,7 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     originalPrice: 0,
     rating: 4.9,
     soldCount: '3.0rb+',
-    image: '/products/blouse-kondangan-brokat-floral.webp',
+    image: '/products/blouse-kondangan-editorial.webp',
     badge: 'Anggun Kondangan',
     isLalaPick: true,
     description:

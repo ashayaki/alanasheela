@@ -14,6 +14,7 @@ export interface ASCProduct {
   description: string;
   fabric: string;
   lalaNote: string;
+  sizes?: string;
   platforms: ('shopee' | 'tiktok')[];
   marketplaceName: string;
   affiliateUrl: string;
@@ -203,25 +204,26 @@ export const ASC_PRODUCTS: ASCProduct[] = [
   // --- TOPS (ATASAN) ---
   {
     id: 'asc-tp-01',
-    name: 'Tops — Blouse Tunik Asimetris Olive Pastel',
+    name: 'Blouse Elegan Lembut Simple — Lala Look',
     category: 'tops',
     categoryLabel: 'Tops',
-    color: 'Soft Olive',
-    price: 119000,
-    originalPrice: 155000,
-    rating: 4.8,
-    soldCount: '1.8rb+',
-    image: '/lala-dress/lala-nordic-10-olive-cream.jpg',
-    badge: 'Lala Pick',
+    color: 'Putih Bersih (Cek toko untuk varian warna)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '3.8rb+',
+    image: '/products/blouse-elegan-lembut-simple.webp',
+    badge: 'Paling Laris',
     isLalaPick: true,
     description:
-      'Atasan tunik elegan dengan potongan bawah asimetris yang modern. Menutup pinggul dengan sempurna dan sopan.',
-    fabric: 'Katun Rayon Twill Import',
+      'Blouse siluet peplum modern yang elegan, lembut, dan simple. Potongan ramping rapi dengan kerah klasik dan bukaan kancing depan. Produk ini hanya mencakup atasan blouse (rok & hijab untuk referensi look). Varian warna lengkap dapat langsung dicek di halaman toko partner.',
+    fabric: 'Kain Lembut Jatuh Premium (Ukuran: S to M, L to XL, XXL)',
+    sizes: 'S to M, L to XL, XXL',
     lalaNote:
-      'Warna olive kremnya adem banget dipadu celana kulot atau rok plisket.',
+      'Blouse putih ini potongannya pas banget di pinggang, memberi kesan ramping dan rapi seketika. Cocok buat outfit ngantor atau hangout santai!',
     platforms: ['shopee'],
     marketplaceName: 'Shopee',
-    affiliateUrl: 'https://shopee.co.id',
+    affiliateUrl: 'https://s.shopee.co.id/8KrHWSxaaI',
   },
   {
     id: 'asc-tp-02',

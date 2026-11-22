@@ -150,9 +150,16 @@ export function CatalogSection({
                         <span className="text-[10px] tracking-[0.18em] uppercase text-[#616e49] font-bold">
                           {product.categoryLabel}
                         </span>
-                        <span className="text-[10px] text-[#717a66]">
-                          {product.soldCount} terjual
-                        </span>
+                        <div className="flex items-center gap-1.5">
+                          {product.sizes && (
+                            <span className="text-[9px] font-medium text-[#4a5438] bg-[#f0f4ea] px-1.5 py-0.5 rounded border border-[#d6e0c7]">
+                              {product.sizes}
+                            </span>
+                          )}
+                          <span className="text-[10px] text-[#717a66]">
+                            {product.soldCount} terjual
+                          </span>
+                        </div>
                       </div>
 
                       <h3

@@ -110,6 +110,14 @@ export function ProductDetailModal({
                 <strong className="text-[#24291e] uppercase tracking-wider">Pilihan Warna:</strong>{' '}
                 {product.color}
               </p>
+              {product.sizes && (
+                <p>
+                  <strong className="text-[#24291e] uppercase tracking-wider">Pilihan Ukuran:</strong>{' '}
+                  <span className="font-semibold text-[#353e27] bg-[#f0f4ea] px-2.5 py-0.5 rounded-md border border-[#d6e0c7] ml-1">
+                    {product.sizes}
+                  </span>
+                </p>
+              )}
               <p className="text-[#646b5a] leading-relaxed pt-1">
                 {product.description}
               </p>

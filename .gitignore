@@ -25,6 +25,8 @@
 *.pem
 Git-Installer.exe
 *.exe
+push_to_github.bat
+*.bat
 *.mp3
 *.wav
 *.mp4

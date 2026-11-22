@@ -157,6 +157,7 @@ export function BannerCarousel() {
                           src="/images/asc-logo.png"
                           alt="ASC Logo"
                           className="h-9 sm:h-11 w-auto object-contain brightness-105"
+                          style={{ maxHeight: '44px', width: 'auto' }}
                         />
                       </div>
                     )}

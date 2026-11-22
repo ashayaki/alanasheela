@@ -68,7 +68,8 @@ export function Navbar({
               <img
                 src="/images/asc-logo.png"
                 alt="ASC Logo"
-                className="h-11 w-auto object-contain shrink-0 transition-transform group-hover:scale-105"
+                className="h-11 w-auto max-h-11 object-contain shrink-0 transition-transform group-hover:scale-105"
+                style={{ maxHeight: '44px', width: 'auto' }}
               />
               <div>
                 <div className="flex items-baseline gap-1.5">

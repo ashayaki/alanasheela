@@ -21,6 +21,16 @@ export function MixMatchSection({ onSelectCategory }: MixMatchSectionProps) {
     }
   };
 
+  const getItemIcon = (item: MixMatchItem, fallback: string) => {
+    if (item.categoryTab === 'gamis') return '👗';
+    if (item.categoryTab === 'hijab') return '🧕';
+    if (item.categoryTab === 'tops') return '👚';
+    if (item.categoryTab === 'bottoms') return '👖';
+    if (item.categoryTab === 'tas') return '👜';
+    if (item.categoryTab === 'sepatu') return '👠';
+    return fallback;
+  };
+
   const renderComponentCard = (item: MixMatchItem, iconLabel: string) => {
     return (
       <div className="bg-white rounded-2xl p-3 sm:p-4 border border-[#e5dcce] shadow-2xs hover:border-[#8b9973] transition-all flex flex-col justify-between group">
@@ -193,17 +203,17 @@ export function MixMatchSection({ onSelectCategory }: MixMatchSectionProps) {
 
               {/* 2x2 Grid Preview Boxes */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* 1. Atasan (Top) */}
-                {renderComponentCard(currentLook.items.top, '👗')}
+                {/* 1. Atasan / One-Piece */}
+                {renderComponentCard(currentLook.items.top, getItemIcon(currentLook.items.top, '👗'))}
 
-                {/* 2. Bawahan (Bottom) */}
-                {renderComponentCard(currentLook.items.bottom, '👖')}
+                {/* 2. Bawahan / Hijab */}
+                {renderComponentCard(currentLook.items.bottom, getItemIcon(currentLook.items.bottom, '👖'))}
 
-                {/* 3. Tas (Bag) */}
-                {renderComponentCard(currentLook.items.bag, '👜')}
+                {/* 3. Tas */}
+                {renderComponentCard(currentLook.items.bag, getItemIcon(currentLook.items.bag, '👜'))}
 
-                {/* 4. Sepatu (Shoes) */}
-                {renderComponentCard(currentLook.items.shoes, '👠')}
+                {/* 4. Sepatu */}
+                {renderComponentCard(currentLook.items.shoes, getItemIcon(currentLook.items.shoes, '👠'))}
               </div>
 
               {/* Banner Footer Callout */}

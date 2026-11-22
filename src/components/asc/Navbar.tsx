@@ -26,12 +26,12 @@ export function Navbar({
   const menuItems = [
     { id: 'tops', label: 'Tops' },
     { id: 'bottoms', label: 'Bottoms' },
+    { id: 'tas', label: 'Tas' },
+    { id: 'sepatu', label: 'Sepatu' },
     { id: 'gamis', label: 'Gamis' },
     { id: 'abaya', label: 'Abaya' },
     { id: 'hijab', label: 'Hijab' },
     { id: 'accessories', label: 'Aksesoris' },
-    { id: 'tas', label: 'Tas' },
-    { id: 'sepatu', label: 'Sepatu' },
     { id: 'shopee', label: 'Shopee' },
     { id: 'tiktok', label: 'TikTok Shop' },
   ];

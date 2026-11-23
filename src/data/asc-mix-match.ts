@@ -1,5 +1,5 @@
 export interface MixMatchItem {
-  type: 'top' | 'bottom' | 'bag' | 'shoes' | 'hijab' | 'gamis';
+  type: 'top' | 'bottom' | 'bag' | 'shoes' | 'hijab' | 'gamis' | 'abaya';
   typeLabel: string;
   categoryTab: string;
   productId: string;
@@ -321,6 +321,66 @@ export const ASC_MIX_MATCH_LOOKS: MixMatchLook[] = [
         productId: 'asc-sp-01',
         name: 'Pointed Heels Cream Nude',
         color: 'Cream / Nude',
+        image: '/lala-dress/lala-kondangan-01-sage-champagne.jpg',
+        platform: 'shopee',
+        marketplaceName: 'Shopee',
+        affiliateUrl: 'https://shopee.co.id',
+      },
+    },
+  },
+  {
+    id: 'look-06',
+    title: 'Teal Grace Anti-UV Premium Abaya',
+    subtitle: 'Abaya syari modern berbahan kain anti-UV sejuk dengan taburan payet mutiara mewah',
+    occasion: 'Kajian, Umroh & Special Days',
+    badge: 'Anti-UV Protection',
+    fullLookImage: '/products/abaya-teal-anti-uv-editorial.webp',
+    lalaQuote:
+      'Abaya warna teal ini anggun banget! Bahannya sudah anti-UV jadi adem dan sejuk walau dipakai seharian. Tinggal padukan dengan hijab/khimar senada dan sepatu putih atau nude biar look syari makin menawan.',
+    items: {
+      top: {
+        type: 'abaya',
+        typeLabel: 'Abaya (One-Piece)',
+        categoryTab: 'abaya',
+        productId: 'asc-ab-01',
+        name: 'Premium Abaya Anti-UV Payet Mutiara',
+        color: 'Teal',
+        image: '/products/abaya-teal-anti-uv.webp',
+        platform: 'shopee',
+        marketplaceName: 'Shopee',
+        affiliateUrl: 'https://s.shopee.co.id/gRrL7uFLV',
+      },
+      bottom: {
+        type: 'hijab',
+        typeLabel: 'Hijab (French Khimar / Pashmina)',
+        categoryTab: 'hijab',
+        productId: 'asc-hj-01',
+        name: 'French Khimar / Pashmina Flowy Teal',
+        color: 'Teal / Cream',
+        image: '/lala-dress/lala-kondangan-01-sage-champagne.jpg',
+        platform: 'shopee',
+        marketplaceName: 'Shopee',
+        affiliateUrl: 'https://shopee.co.id',
+      },
+      bag: {
+        type: 'bag',
+        typeLabel: 'Tas (Shoulder Bag)',
+        categoryTab: 'tas',
+        productId: 'asc-tas-01',
+        name: 'Minimalist Shoulder Bag White Ivory',
+        color: 'White / Cream',
+        image: '/lala-dress/lala-look-03-cobalt-platinum.jpg',
+        platform: 'shopee',
+        marketplaceName: 'Shopee',
+        affiliateUrl: 'https://shopee.co.id',
+      },
+      shoes: {
+        type: 'shoes',
+        typeLabel: 'Sepatu (Mules / Heels)',
+        categoryTab: 'sepatu',
+        productId: 'asc-sp-01',
+        name: 'Pointed Mules White Nude',
+        color: 'White / Nude',
         image: '/lala-dress/lala-kondangan-01-sage-champagne.jpg',
         platform: 'shopee',
         marketplaceName: 'Shopee',

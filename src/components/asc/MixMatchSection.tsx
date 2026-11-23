@@ -22,7 +22,7 @@ export function MixMatchSection({ onSelectCategory }: MixMatchSectionProps) {
   };
 
   const getItemIcon = (item: MixMatchItem, fallback: string) => {
-    if (item.categoryTab === 'gamis') return '👗';
+    if (item.categoryTab === 'gamis' || item.categoryTab === 'abaya') return '👗';
     if (item.categoryTab === 'hijab') return '🧕';
     if (item.categoryTab === 'tops') return '👚';
     if (item.categoryTab === 'bottoms') return '👖';

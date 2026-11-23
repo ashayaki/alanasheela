@@ -160,6 +160,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/9AQQIPEPx0',
   },
+  {
+    id: 'asc-gm-07',
+    name: 'Satin Silk Dress 2 in 1 Gamis Serut Instan Plus Outer Free Belt Brokat — Lala Look',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Sage Green (Cek pilihan warna di toko)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.7,
+    soldCount: 'Terjual di Shopee',
+    image: '/products/gamis-satin-silk-2in1-sage.webp',
+    badge: 'Set 2-in-1 + Free Belt',
+    isLalaPick: true,
+    description:
+      'Setelan gamis pesta 2-in-1 modern berbahan satin velvet dengan siluet rok serut draperi instan yang anggun, dipadukan outer brokat lace berhias mutiara cantik plus free belt brokat yang bisa dilepas-pasang. Pilihan warna sage green segar dan opsi warna lainnya tersedia di toko.',
+    fabric: 'Satin Velvet Premium mix Brukat Lace (Plus Free Belt Brokat)',
+    sizes: 'M, L, XL, XXL',
+    lalaNote:
+      'Model rok serut lilit instan warna sage ini bikin look kelihatan ramping dan proporsional seketika! Sudah dapat dress satin velvet, outer lace bertabur mutiara, plus free belt brokat.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/BVbbp7IvA',
+  },
 
   // --- ABAYA ---
   {

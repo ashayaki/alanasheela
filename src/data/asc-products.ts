@@ -137,6 +137,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/6fj4dRU4Ac',
   },
+  {
+    id: 'asc-gm-06',
+    name: 'Gamis Brokat Mutiara Siluet Mermaid — Lala Look',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Mauve Eksklusif (Hanya 1 warna sesuai foto)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: 'Terjual di Shopee',
+    image: '/products/gamis-brokat-mutiara-mauve.webp',
+    badge: 'Warna Eksklusif',
+    isLalaPick: true,
+    description:
+      'Gamis pesta one set bernuansa mauve elegan dengan siluet duyung (mermaid) berpadu atasan brokat lace berhias mutiara diagonal mewah. Dilengkapi aksen tali pita pinggang yang mempertegas siluet ramping dan selendang tulle jatuh manis di bahu. Warna eksklusif mauve sesuai pada foto.',
+    fabric: 'Brokat Renda Premium mix Satin Silk Lembut & Tulle Draped (Aksen Mutiara)',
+    sizes: 'L, XL, XXL',
+    lalaNote:
+      'Warna mauve-nya eksklusif dan mewah banget! Aksen mutiara diagonal dan selendang tulle di bahu bikin look kondangan kelihatan sangat anggun dan berkelas.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/9AQQIPEPx0',
+  },
 
   // --- ABAYA ---
   {

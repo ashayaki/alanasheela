@@ -276,6 +276,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/5VX6ItMTHY',
   },
+  {
+    id: 'asc-tp-04',
+    name: 'Blouse Satin Silk Lace Grey — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Grey Satin (Trim Renda Hitam)',
+    price: 0,
+    originalPrice: 0,
+    rating: 5.0,
+    soldCount: '300+ terjual (100 ulasan)',
+    image: '/products/blouse-satin-silk-grey.webp',
+    badge: 'Skor Sempurna 5.0 ★',
+    isLalaPick: true,
+    description:
+      'Blouse atasan satin silk premium dengan kilau mewah yang lembut dan sejuk di kulit. Dipermanis aksen trim renda brokat hitam halus pada keliman bawah asimetris dan ujung lengan manset. Produk ini mencakup atasan blouse (rok, hijab, dan tas untuk inspirasi padu padan). Ulasan sempurna bintang 5 tanpa cela dari 100+ pembeli.',
+    fabric: 'Satin Silk Premium Lembut + Trim Renda Brokat Hitam',
+    sizes: 'All Size',
+    lalaNote:
+      'Blouse satin silk ini ulasannya terbaik bintang 5 tanpa cela! Kilau satin abunya kalem dan berkelas, dipadu renda hitam manis banget. Cocok buat semi-formal atau acara santai elegan.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/3g5T9ND9tG',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

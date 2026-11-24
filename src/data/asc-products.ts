@@ -714,6 +714,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/AKcP0ehGgx',
   },
+  {
+    id: 'asc-ak-09',
+    name: 'Ikat Pinggang Kulit Sapi Asli Wanita GG Buckle Casual & Formal — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Taupe Grey & Warm Brown with Brushed Gold Buckle',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '9rb+ terjual (3,4rb+ ulasan)',
+    image: '/products/ikat-pinggang-wanita-kulit-sapi-asli-gg-buckle.webp',
+    badge: 'Kulit Sapi Asli 100% (4.9★)',
+    isLalaPick: true,
+    description:
+      'Ikat pinggang wanita mewah dari 100% kulit sapi asli (genuine cowhide leather) dengan tekstur lentur, anti-mengelupas, dan sangat awet untuk pemakaian bertahun-tahun. Dilengkapi kepala gesper GG interlocking buckle bernuansa brushed gold yang ikonik, berkelas, dan elegan. Desain ramping minimalis yang sangat serbaguna untuk dipadukan dengan dress elegan, blouse modern kerja, tunik stylish, maupun gamis pesta kondangan agar siluet pinggang tampak lebih ramping dan rapi.',
+    fabric: '100% Kulit Sapi Asli (Genuine Cowhide Leather) + Alloy Brushed Gold Interlocking GG Buckle',
+    sizes: 'Panjang Fleksibel dengan Lubang Presisi (Adjustable Fit)',
+    lalaNote:
+      'Investasi fashion wajib punya! Karena bahannya kulit sapi asli 100%, belt ini gak bakal ngelupas bertahun-tahun. Gesper GG-nya mewah dan understated, bikin outfit simpel apa pun langsung kelihatan mahal dan rapi.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/1W10UhyYC0',
+  },
 
   // --- TAS ---
   {

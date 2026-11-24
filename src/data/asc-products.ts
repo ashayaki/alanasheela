@@ -852,4 +852,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/5fqZIWATce',
   },
+  {
+    id: 'asc-sp-09',
+    name: 'Pointed Heels Pesta Crystal Strappy D’Orsay — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '2 Pilihan Warna (Black dan Beige)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '800+ terjual (373 ulasan)',
+    image: '/products/heels-pesta-crystal-dorsay.webp',
+    badge: 'Kondangan Elegan',
+    isLalaPick: true,
+    description:
+      'Sepatu high heels pesta wanita model D’Orsay pointed toe berpotongan samping terbuka yang sangat ramping dan anggun. Dihiasi untaian tali kristal berlian (crystal strappy) berkilau mewah yang melengkung indah di atas punggung kaki. Menampilkan siluet stiletto modern yang memesona untuk acara kondangan, wisuda, gala dinner, maupun pesta malam. Tersedia dalam 2 variasi warna timeless: Black dan Beige. Pilihan ukuran dari Size 34 hingga 39 (tersedia petite size 34).',
+    fabric: 'Satin Silk / Suede Matte Premium + Crystal Straps Berlian + Insole Cushioning',
+    sizes: 'Size 34 - 39 (Tersedia Petite Size)',
+    lalaNote:
+      'Aksen tali kristal lengkung di punggung kakinya bener-bener mewah dan seksi elegan! Siluet D’Orsay bikin kaki kelihatan jenjang semampai. Cocok banget buat kondangan malam atau gaun pesta.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/50asVS7sKi',
+  },
 ];

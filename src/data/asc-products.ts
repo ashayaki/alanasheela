@@ -644,6 +644,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/8pnb8Uqn5C',
   },
+  {
+    id: 'asc-ak-06',
+    name: 'Bros Hijab & Kebaya Royal Sapphire Crystal Starburst — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Royal Sapphire Blue & Silver Diamond',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '3rb+ terjual (1rb+ ulasan)',
+    image: '/products/bros-hijab-royal-sapphire-starburst.webp',
+    badge: 'Luxury Crystal (4.9★)',
+    isLalaPick: true,
+    description:
+      'Bros hijab, gamis, kebaya, dan blazer mewah bertatahkan kristal permata biru safir (Royal Sapphire Blue) potongan tetes air (teardrop/pear cut) dan oval faset berkilau tinggi di bagian tengah. Dikelilingi ruji-ruji starburst / sunburst bertabur pavé diamond zirkon berkilauan spektakuler yang memberikan kesan ningrat, megah, dan berkelas ala perhiasan kerajaan. Dilengkapi peniti semat tebal yang sangat tajam dan presisi, tidak merusak serat kain sutra, pashmina silk, kebaya beludru, maupun jas formal.',
+    fabric: 'Alloy Rhodium Silver Plated + Permata Faset Sapphire Blue + Kristal Pavé Zirkon',
+    sizes: 'Diameter ±5.5 cm',
+    lalaNote:
+      'Kilau permata biru safirnya bener-bener mewah dan anggun banget! Pas banget disematkan di hijab satin navy/silver, dada gamis pesta, atau kebaya beludru buat tampilan pesta yang glamor dan berkelas.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/80EUAwNOZF',
+  },
 
   // --- TAS ---
   {

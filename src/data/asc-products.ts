@@ -621,6 +621,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/9KjrjE2bQr',
   },
+  {
+    id: 'asc-ak-05',
+    name: 'Bros Rantai Kebaya Janggan & Kutubaru Bunga Mutiara — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Gold White Pearl with Maroon Blossom',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '3rb+ terjual (763 ulasan)',
+    image: '/products/bros-kebaya-janggan-kutubaru-rantai.webp',
+    badge: 'Favorit Kebaya (4.9★)',
+    isLalaPick: true,
+    description:
+      'Bros rantai ganda (chain brooch) mewah khusus kebaya janggan, kebaya kutubaru, kebaya kartini, gamis, maupun blazer formal. Menghadirkan desain floral korsase ganda berhiaskan kelopak bunga putih mutiara, aksen kuntum merah maroon, daun filigri emas, dan juntaian rantai ganda keemasan yang menjuntai indah di bagian dada atau kerah. Dilengkapi 2 pin semat tajam anti-nyangkut yang kokoh menahan lipatan kain kebaya agar selalu rapi dan elegan sepanjang acara pesta dan kondangan.',
+    fabric: 'Alloy Gold Plated + Mutiara Sintetis + Kristal Zirkon + Enamel Bunga + Rantai Ganda',
+    sizes: 'Model Rantai Ganda (Dual Pin Kebaya)',
+    lalaNote:
+      'Bros rantai ini wajib banget buat yang suka pakai kebaya janggan ala Gadis Kretek atau kebaya kutubaru! Juntaian rantai emas dan aksen bunga mutiaranya bikin look kebaya langsung kelihatan ningrat dan berkelas banget.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/8pnb8Uqn5C',
+  },
 
   // --- TAS ---
   {

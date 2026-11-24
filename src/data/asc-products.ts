@@ -416,6 +416,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/BVcTcBsrc',
   },
+  {
+    id: 'asc-bt-04',
+    name: 'Maxi A-Line Satin Skirt Navy — Lala Look',
+    category: 'bottoms',
+    categoryLabel: 'Bottoms',
+    color: 'Navy Blue (Tersedia 12 Pilihan Warna di Toko)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '10rb+ terjual',
+    image: '/products/maxi-aline-satin-skirt-navy.webp',
+    badge: 'Best Seller (10rb+)',
+    isLalaPick: true,
+    description:
+      'Rok satin maxi berpotongan A-line dengan siluet high waist yang memberi ilusi ramping dan kaki semampai. Berbahan premium satin fabric yang halus, sejuk, ringan, dan memiliki drape jatuh flowy yang anggun saat melangkah. Tersedia dalam 12 pilihan warna cantik (Navy, Hitam Silver, Cherry Blossom, Emerald Blue, Burgundy, Sky Blue, Dark Choco, Champagne, Off White, Sage Green, Nude, dll). Produk ini mencakup rok bawahan saja.',
+    fabric: 'Premium Satin Fabric (Smooth & Luxurious, Flowy & Lightweight)',
+    sizes: 'All Size (Fit to You)',
+    lalaNote:
+      'Siluet A-line high waist-nya juara banget bikin badan kelihatan semampai dan pinggang ramping! Terjual 10rb+ di Shopee dengan 12 pilihan warna, gampang dipadu atasan brokat lilac atau blouse pesta.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/5VX8r9MXBT',
+  },
 
   // --- HIJAB ---
   {

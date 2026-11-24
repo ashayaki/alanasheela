@@ -439,6 +439,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/5VX8r9MXBT',
   },
+  {
+    id: 'asc-bt-05',
+    name: 'Rok Satin Panjang Full Furing Korean Skirt Mahogany — Lala Look',
+    category: 'bottoms',
+    categoryLabel: 'Bottoms',
+    color: 'Mahogany (Tersedia 4 Pilihan Warna di Toko)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '1rb+ terjual (586 ulasan)',
+    image: '/products/rok-satin-furing-mahogany.webp',
+    badge: 'Full Furing (Anti Terawang)',
+    isLalaPick: true,
+    description:
+      'Rok satin panjang model Korean Skirt berpotongan elegan dengan lapisan full furing tebal yang aman dan tidak menerawang sama sekali. Berbahan satin premium lembut dengan kilau anggun, pinggang rapi, dan jatuh flowy saat dipakai. Warna yang dikenakan pada gambar adalah Mahogany (maroon mewah berkarakter). Tersedia dalam 4 pilihan warna elegan di toko (Mahogany, Hazelnut Dark Choco, Brown, dll). Produk ini mencakup rok bawahan saja.',
+    fabric: 'Satin Premium Full Furing (Lembut, Flowy & Tidak Transparan)',
+    sizes: 'S (Tersedia Ukuran S)',
+    lalaNote:
+      'Paling suka rok satin yang ada full furing-nya, jadi gak perlu khawatir nerawang! Warna mahogany-nya mewah dan elegan banget dipadu blouse pita mauve atau atasan brokat.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/6fj6G2E5MN',
+  },
 
   // --- HIJAB ---
   {

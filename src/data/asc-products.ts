@@ -806,4 +806,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/4VebtJ1IHJ',
   },
+  {
+    id: 'asc-sp-07',
+    name: 'Sandal Heels Wanita Block Heels Cross Strap Ori Mall — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: 'Soft Blush / Nude Cream (Tersedia 5 Pilihan Warna)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '6rb+ terjual (2.4rb+ ulasan)',
+    image: '/products/sandal-heels-block-cross-strap.webp',
+    badge: 'Ori Mall (Super Nyaman)',
+    isLalaPick: true,
+    description:
+      'Sepatu sandal heels wanita kualitas Ori Mall dengan siluet square open toe modern dan aksen strap silang (cross strap) bergesper kristal rose gold yang manis. Dilengkapi hak tahu (block heels) yang kokoh dan seimbang sehingga sangat nyaman dan tidak membuat kaki pegal saat dipakai berjam-jam untuk kerja, kondangan, maupun jalan santai. Tersedia dalam 5 varian warna cantik. Ukuran Size 37 hingga 41.',
+    fabric: 'Soft Vegan Leatherette + Insole Memory Foam Empuk + Hak Block Heels Kokoh',
+    sizes: 'Size 37 - 41',
+    lalaNote:
+      'Model sandal heels ini super manis dan empuk banget telapaknya! Aksen strap silang plus gesper kecilnya kasih sentuhan mewah. Hak tahunya kokoh dan stabil, cocok buat harian maupun semi-formal.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/1W10KJLRYU',
+  },
 ];

@@ -807,6 +807,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/3qOvNX23dZ',
   },
+  {
+    id: 'asc-ak-13',
+    name: 'Sunglasses Cat-Eye Wanita Anti Silau UV400 Tortoise Retro — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Tortoiseshell Amber Brown',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '2rb+ terjual (850 ulasan)',
+    image: '/products/sunglasses-cat-eye-anti-silau-uv400.webp',
+    badge: 'Cat-Eye UV400 (4.9★)',
+    isLalaPick: true,
+    description:
+      'Kacamata hitam wanita model Cat-Eye (Cat-Eye Sunglasses) bergaya retro vintage yang sangat glamor dan chic. Dilengkapi lensa pelindung UV400 anti-silau yang teduh dan nyaman untuk melindungi mata saat beraktivitas outdoor, liburan, driving, maupun foto OOTD. Frame bermotif tortoiseshell (amber brown corak penyu) berpotongan tajam lembut di sudut atas yang memberi efek wajah lebih tirus, tegas, dan berkarakter high fashion saat dipadukan dengan hijab silk maupun busana kasual elegan.',
+    fabric: 'Acetate Premium Frame (Tortoiseshell Pattern) + Lensa Polycarbonate UV400 Anti Glare',
+    sizes: 'Ukuran Frame Fleksibel Ringan (All Size)',
+    lalaNote:
+      'Cat-eye sunglasses ini bener-bener level up gaya OOTD outdoor! Bentuk sudut lancipnya bikin wajah kelihatan lebih tirus dan proporsional, corak tortoiseshell-nya mewah banget dipadu hijab warna bold kaya plum atau earthy tone.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/7pv4CAoqPK',
+  },
 
   // --- TAS ---
   {

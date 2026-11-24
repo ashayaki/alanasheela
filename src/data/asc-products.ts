@@ -784,6 +784,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/5fqZXK5W7U',
   },
+  {
+    id: 'asc-ak-12',
+    name: 'Ikat Pinggang Wanita Slim Minimalist Gold Buckle Korean Office Chic — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '2 Pilihan Warna (Classic Black & Warm Brown)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '1rb+ terjual (352 ulasan)',
+    image: '/products/ikat-pinggang-wanita-slim-gold-buckle-office-chic.webp',
+    badge: 'Office Chic (4.8★)',
+    isLalaPick: true,
+    description:
+      'Ikat pinggang kulit wanita model slim ramping (Korean Office Chic Style) berdesain minimalis modern yang sangat bersih dan rapi. Dilengkapi kepala gesper melengkung halus bersepuh emas berkilau (gold buckle) dengan ring loop logam senada yang memberi aksen formal nan elegan. Sangat ideal dipakai sehari-hari untuk ngantor, kuliah, maupun acara formal dipadukan dengan kemeja/blouse elegan, celana kulot, blazer modern, rok span/plisket, maupun dress stylish untuk mempertegas siluet tubuh yang profesional dan ramping. Tersedia dalam 2 warna netral klasik: Hitam (Black) dan Coklat (Brown).',
+    fabric: 'Kulit PU Sintetis Halus High Grade + Alloy Gold Buckle & Metal Loop',
+    sizes: 'Panjang Fleksibel dengan Lubang Presisi (Adjustable Fit)',
+    lalaNote:
+      'Outfit ngantor auto kelihatan rapi dan profesional! Desain slim-nya clean banget dengan gesper emas minimalis, dipadukan sama blouse krem dan rok hitam langsung kelihatan sleek dan berkelas ala cewek karir Korea.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/3qOvNX23dZ',
+  },
 
   // --- TAS ---
   {

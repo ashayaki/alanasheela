@@ -760,4 +760,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/1CCVrZKhf',
   },
+  {
+    id: 'asc-sp-05',
+    name: 'Sepatu Sandal Sprinkles Crystal High Heels Ori Mall — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '2 Pilihan Warna (Pink & Silver)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '3rb+ terjual (1.4rb+ ulasan)',
+    image: '/products/sepatu-sandal-sprinkles-heels.webp',
+    badge: 'Ori Mall (Sprinkles Crystal)',
+    isLalaPick: true,
+    description:
+      'Sepatu sandal mules high heels wanita pesta berstandar Ori Mall dengan taburan butiran kristal sprinkles mewah berkilauan di atas jaring transparan lembut. Dilengkapi hak balok metalik (block heels) yang kokoh, stabil, dan nyaman dipakai berjalan tanpa rasa lelah. Pilihan tepat untuk melengkapi busana gamis pesta, kondangan, bridal, maupun wisuda. Tersedia dalam 2 variasi warna cantik: Pink dan Silver. Ukuran Size 36 hingga 40.',
+    fabric: 'Soft Mesh Crystal Sprinkles + Metallic Block Heels + Insole Double Foam',
+    sizes: 'Size 36 - 40',
+    lalaNote:
+      'Mules sprinkles crystal Ori Mall ini super sparkling dan glamor! Hak balok metaliknya bikin langkah stabil dan kaki kelihatan anggun jenjang. Cocok banget dipadukan dengan gamis atau one set pesta.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/7AfN3jd95n',
+  },
 ];

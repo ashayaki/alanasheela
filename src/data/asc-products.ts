@@ -737,4 +737,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/60TPedwPkQ',
   },
+  {
+    id: 'asc-sp-04',
+    name: 'Flatshoes Wanita Anti-Slip Elegan Ori Mall — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '3 Pilihan Warna (Black Lala, Creamy Sensen, Choco Merry)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '10rb+ terjual',
+    image: '/products/flatshoes-antislip-cross-strap.webp',
+    badge: 'Ori Mall (Anti-Slip)',
+    isLalaPick: true,
+    description:
+      'Sepatu flatshoes wanita elegan berkualitas Ori Mall dengan sol karet fleksibel anti-slip yang aman dan nyaman dipakai beraktivitas harian maupun kerja. Berbahan faux leather premium yang lembut dan tidak membuat kaki lecet, dipermanis aksen strap silang (cross strap) kontemporer di bagian depan. Tersedia dalam 3 varian warna favorit: Black Lala, Creamy Sensen, dan Choco Merry. Ukuran Size 37 hingga 40.',
+    fabric: 'Faux Leather Premium + Sol Karet Lentur Anti-Slip + Insole Empuk',
+    sizes: 'Size 37 - 40',
+    lalaNote:
+      'Flatshoes Ori Mall ini bener-bener nyaman seharian! Bahannya lembut gak bikin tumit lecet, dan sol bawahnya anti-slip gak licin. Pilihan warna Black Lala, Creamy Sensen, dan Choco Merry-nya manis banget.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/1CCVrZKhf',
+  },
 ];

@@ -875,4 +875,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/50asVS7sKi',
   },
+  {
+    id: 'asc-sp-10',
+    name: 'Heels Pesta Wanita Ankle Strap Kanvas Glitter Pita Kristal — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '4 Pilihan Warna (Gold, Rosegold, Hitam, dan Silver)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '8rb+ terjual (2.9rb+ ulasan)',
+    image: '/products/heels-kanvas-glitter-pita-bow.webp',
+    badge: 'Best Seller (8rb+)',
+    isLalaPick: true,
+    description:
+      'Sepatu heels pesta wanita model slingback ankle strap berhiaskan aksen pita kristal berlian ganda (double bow crystal) yang manis dan berkilauan mewah. Dibuat dari bahan kanvas glitter bertekstur elegan dengan siluet pointed toe lancip dan hak sedang yang sangat stabil dan nyaman dipakai melangkah. Pilihan sempurna untuk kondangan, wisuda, bridesmaid, maupun pesta malam. Tersedia dalam 4 variasi warna: Gold, Rosegold, Hitam, dan Silver. Ukuran Size 37 hingga 40.',
+    fabric: 'Kanvas Glitter Premium + Aksen Double Bow Kristal + Insole Foam Empuk',
+    sizes: 'Size 37 - 40',
+    lalaNote:
+      'Pita kristal gandanya bener-bener cantik dan berkilau mewah di kaki! Bahan kanvas glitternya halus gak gampang rontok, haknya pas dan gak bikin pegal. Best seller terjual lebih dari 8rb+ dengan rating 4.9.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/1qdqjyi277',
+  },
 ];

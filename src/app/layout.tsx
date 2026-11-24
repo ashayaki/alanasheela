@@ -44,9 +44,12 @@ export const metadata: Metadata = {
     images: ['/lala-dress/lala-kondangan-01-sage-champagne.jpg'],
   },
   icons: {
-    icon: '/icon.png',
-    shortcut: '/favicon.ico',
-    apple: '/icon.png',
+    icon: [
+      { url: '/favicon.ico?v=2', sizes: 'any' },
+      { url: '/icon.png?v=2', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico?v=2',
+    apple: '/icon.png?v=2',
   },
 };
 
@@ -57,6 +60,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/icon.png?v=2" />
+        <link rel="apple-touch-icon" href="/icon.png?v=2" />
+      </head>
       <body className="antialiased min-h-screen bg-[#fbf9f5] text-[#24281e] font-sans selection:bg-[#e4ede0] selection:text-[#2d361f]">
         {children}
       </body>

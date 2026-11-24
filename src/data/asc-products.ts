@@ -533,28 +533,6 @@ export const ASC_PRODUCTS: ASCProduct[] = [
 
   // --- AKSESORIS ---
   {
-    id: 'asc-ak-01',
-    name: 'Aksesoris — Bros Dagu Mutiara Barok Minimalis',
-    category: 'accessories',
-    categoryLabel: 'Aksesoris',
-    color: 'Silver Pearl',
-    price: 28000,
-    originalPrice: 45000,
-    rating: 4.9,
-    soldCount: '2.8rb+',
-    image: '/lala-dress/lala-look-07-iceblue-silver.jpg',
-    badge: 'Lala Pick',
-    isLalaPick: true,
-    description:
-      'Bros semat dagu kecil dengan mutiara barok elegan. Peniti tajam anti merusak serat kain hijab kesayanganmu.',
-    fabric: 'Alloy Anti Karat & Mutiara Sintetis Barok',
-    lalaNote:
-      'Jarumnya tajem banget jadi gak bikin hijab seratnya ketarik!',
-    platforms: ['shopee'],
-    marketplaceName: 'Shopee',
-    affiliateUrl: 'https://shopee.co.id',
-  },
-  {
     id: 'asc-ak-02',
     name: 'Kacamata Wanita Anti Radiasi Photocromic Bluecromic Korean Style — Lala Look',
     category: 'accessories',

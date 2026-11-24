@@ -598,6 +598,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'TikTok Shop',
     affiliateUrl: 'https://www.tiktok.com',
   },
+  {
+    id: 'asc-ak-04',
+    name: 'Bros Premium Fragrant Orchid Crystal (Free Kotak Display) — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '2 Pilihan Warna (Silver & Rose Gold)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '3rb+ terjual (1,2rb+ ulasan)',
+    image: '/products/bros-premium-fragrant-orchid.webp',
+    badge: 'Aksesoris Premium (4.9★)',
+    isLalaPick: true,
+    description:
+      'Bros hijab, kebaya, gamis, dan blazer wanita premium bermotif karangan bunga anggrek melingkar (Fragrant Orchid) yang anggun nan mewah. Dibuat dengan finishing rhodium halus anti-karat, dilapisi enamel kelopak bunga putih mutiara serta taburan kristal zirkon berkilau tinggi. Dilengkapi jarum semat yang sangat tajam dan halus sehingga aman serta tidak merusak serat kain hijab pashmina atau busana sutra/lace kesayangan. Sudah termasuk free kotak display transparan eksklusif yang cantik untuk penyimpanan rapi maupun hadiah istimewa. Tersedia dalam 2 varian warna: Silver dan Rose Gold.',
+    fabric: 'Alloy Rhodium Plated Anti-Karat + Enamel Kelopak Mutiara + Kristal Zirkon Kilau Tinggi',
+    sizes: 'Free Kotak Display Eksklusif',
+    lalaNote:
+      'Bros anggrek ini cantik banget disematkan di hijab pashmina silk, bahu gamis, atau dada blazer kerja! Kilau kristalnya mewah tapi tetap sopan, jarumnya super halus anti-merusak serat kain sutra, plus dapet free kotak display cantiknya.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/9KjrjE2bQr',
+  },
 
   // --- TAS ---
   {

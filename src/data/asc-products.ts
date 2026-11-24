@@ -783,4 +783,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/7AfN3jd95n',
   },
+  {
+    id: 'asc-sp-06',
+    name: 'Sandal Pesta Heels Kaca Pita Crystal Bow — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '4 Pilihan Warna (Rosegold, Hitam, Silver, dan Gold)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '10rb+ terjual (9.7rb+ ulasan)',
+    image: '/products/sandal-pesta-heels-kaca-bow.webp',
+    badge: 'Best Seller (10rb+)',
+    isLalaPick: true,
+    description:
+      'Sepatu sandal pesta wanita model mules berhiaskan aksen pita kristal berkilauan dan hak kaca transparan (crystal heels) yang super mewah dan modern. Desain slip-on berujung pointed toe yang memberi efek kaki jenjang dan anggun. Sangat cocok untuk acara kondangan, wisuda, pesta malam, maupun busana pengantin/bridal. Tersedia dalam 4 variasi warna: Rosegold, Hitam, Silver, dan Gold. Pilihan ukuran luas dari Size 36 hingga 43 (tersedia big size).',
+    fabric: 'Glitter Shimmer Mesh + Crystal Glass Heels Transparan + Insole Foam Empuk',
+    sizes: 'Size 36 - 43 (Tersedia Big Size)',
+    lalaNote:
+      'Hak kacanya bener-bener estetik dan unik banget! Ditambah pita kristal berkilau bikin look auto mewah. Terjual lebih dari 10rb+ dengan 9.7rb ulasan positif. Pilihan ukurannya lengkap dari 36 sampai 43!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/4VebtJ1IHJ',
+  },
 ];

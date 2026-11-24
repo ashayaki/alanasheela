@@ -668,6 +668,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/80EUAwNOZF',
   },
+  {
+    id: 'asc-ak-07',
+    name: 'Bros Mutiara Besar 6cm Sunburst Dahlia Crystal — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '2 Pilihan Warna (Silver & Rose Gold)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '4rb+ terjual (1,4rb+ ulasan)',
+    image: '/products/bros-mutiara-besar-sunburst-dahlia.webp',
+    badge: 'Statement 6cm (4.9★)',
+    isLalaPick: true,
+    description:
+      'Bros statement berukuran besar (diameter 6 cm) dengan desain kelopak bunga dahlia / sunburst berlapis yang megah dan spektakuler. Bagian tengah berhiaskan mutiara bulat besar dengan kemilau kilap mewah, dikelilingi puluhan kelopak bertabur ratusan micro-pavé kristal zirkon yang memancarkan kilau tajam 360 derajat. Peniti semat kokoh, tajam, dan tebal, sangat ideal disematkan sebagai aksen utama pada dada gamis polos, bahu kebaya kondangan, jas/blazer pesta, maupun pashmina syari tanpa membuat kain melorot.',
+    fabric: 'Alloy Rhodium/Gold Plated Anti-Karat + Mutiara Bulat Premium + Micro-Pavé Kristal Zirkon',
+    sizes: 'Diameter Besar 6 cm (Statement Size)',
+    lalaNote:
+      'Ukuran 6 cm-nya bener-bener pas buat statement piece! Begitu dipasang di gamis polos atau kebaya, langsung mengubah outfit biasa jadi kelihatan mewah banget ala ibu pejabat atau pesta ningrat.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/2VtXg33pRO',
+  },
 
   // --- TAS ---
   {

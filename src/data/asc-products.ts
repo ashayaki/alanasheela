@@ -898,4 +898,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/1qdqjyi277',
   },
+  {
+    id: 'asc-sp-11',
+    name: 'Heels Pesta Wedding Brokat Payet Mutiara Ankle Strap — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '4 Pilihan Warna (White, Maroon, Baby Blue, dan Soft Pink)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '2rb+ terjual (1rb+ ulasan)',
+    image: '/products/sepatu-wedding-brokat-payet-mutiara.webp',
+    badge: 'Wedding & Pesta (4.9★)',
+    isLalaPick: true,
+    description:
+      'Sepatu heels pesta dan pernikahan (wedding shoes) model slingback ankle strap berhiaskan bordir brokat lace premium bertabur payet mutiara dan kristal mewah di bagian depan pointed toe. Dilengkapi tali gesper pergelangan kaki yang pas serta hak tahu (block heels) kokoh yang menjamin stabilitas dan kenyamanan maksimal saat berdiri lama di pelaminan atau pesta kondangan. Tersedia dalam 4 varian warna anggun: White, Maroon, Baby Blue, dan Soft Pink. Ukuran Size 36 hingga 40.',
+    fabric: 'Brokat Lace Bordir + Payet Mutiara Kristal + Insole Busa Empuk + Hak Block Heels',
+    sizes: 'Size 36 - 40',
+    lalaNote:
+      'Wedding heels ini detail payet mutiaranya bener-bener mewah dan rapi! Hak tahunya kokoh banget buat berdiri berjam-jam, pilihan warnanya dari baby blue, soft pink, white sampai maroon super menawan.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/1Lha9XjdtN',
+  },
 ];

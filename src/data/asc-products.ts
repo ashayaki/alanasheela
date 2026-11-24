@@ -921,4 +921,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/1Lha9XjdtN',
   },
+  {
+    id: 'asc-sp-12',
+    name: 'Heels Pesta Wedding Mewah 3D Floral Pearl Corsage (11 Varian) — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '11 Pilihan Warna & 2 Model Hak (Stiletto & Block Heels: Champagne, Gold, Silver, White, Glossy Black, Apricot)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '1rb+ terjual (426 ulasan)',
+    image: '/products/heels-wedding-3d-floral-corsage.webp',
+    badge: 'Luxury Wedding (4.9★)',
+    isLalaPick: true,
+    description:
+      'Sepatu heels pesta dan pernikahan import mewah berhiaskan korsase bunga 3D kelopak sutra bertabur mutiara air tawar dan permata kristal berkilau di bagian belakang tumit. Siluet pointed toe elegan yang memberi siluet kaki jenjang dan anggun. Hadir dalam 2 pilihan model hak: Stiletto ramping feminin dan Block Heels (hak tahu) kokoh yang nyaman untuk dipakai seharian. Tersedia dalam 11 varian warna memukau: Glitter Shimmer (Champagne, Gold, Silver, White) dan Glossy Patent Leather (Black, Apricot, White). Pilihan ukuran lengkap Size 35 hingga 40.',
+    fabric: 'Glitter Shimmer Fabric / Glossy Patent Leather + Korsase 3D Flower Organza + Pearl Beads & Crystal Diamond + Insole Empuk',
+    sizes: 'Size 35 - 40 (Tersedia Hak Stiletto & Hak Tahu)',
+    lalaNote:
+      'Ini heels paling memukau buat wedding dan pesta formal! Aksen korsase bunga 3D dan mutiara di bagian belakang tumitnya bener-bener mencuri perhatian saat melangkah. Ditambah ada opsi hak tahu dan stiletto dalam 11 warna, bener-bener definisi sepatu impian!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/8VAkhHHyE4',
+  },
 ];

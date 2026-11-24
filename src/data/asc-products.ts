@@ -737,6 +737,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/1W10UhyYC0',
   },
+  {
+    id: 'asc-ak-10',
+    name: 'Belt Rantai Slim Bunga Camellia Pearl Waist Chain — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Gold Chain with Ivory Camellia & Pearl Accents',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '7rb+ terjual (2rb+ ulasan)',
+    image: '/products/ikat-pinggang-rantai-camellia-waist-chain.webp',
+    badge: 'Camellia Waist Chain (4.8★)',
+    isLalaPick: true,
+    description:
+      'Ikat pinggang rantai wanita model slim (Camellia Waist Chain) dengan deretan permata persegi mutiara berbingkai emas yang mewah dan feminin. Dipercantik juntaian rantai ganda emas dengan bandul liontin bunga Camellia putih mutiara berinti mutiara air tawar di ujungnya. Sangat fleksibel dan anggun dipadukan dengan dress elegan, blouse modern, tunik stylish, maupun gamis polos berpotongan flowy untuk memberi aksen lekuk pinggang yang ramping, proporsional, dan chic ala Parisian style.',
+    fabric: 'Alloy Gold Plated + Mutiara Sintetis Bentuk Persegi + Liontin Bunga Camellia Enamel',
+    sizes: 'Panjang Fleksibel dengan Kait Rantai (Adjustable Length)',
+    lalaNote:
+      'Detail bunga Camellia di ujung rantainya manis dan feminin banget! Begitu dipakai di dress polos warna dusty blue atau earth tone, langsung kelihatan mahal dan chic ala gaya Parisian.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/114jy6GY3U',
+  },
 
   // --- TAS ---
   {

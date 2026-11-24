@@ -691,6 +691,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/2VtXg33pRO',
   },
+  {
+    id: 'asc-ak-08',
+    name: 'Ikat Pinggang Rantai Mutiara Elegant Waist Chain — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: 'Gold Chain with White & Onyx Black Pearl',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '2rb+ terjual (702 ulasan)',
+    image: '/products/ikat-pinggang-rantai-mutiara-elegant-waist-chain.webp',
+    badge: 'Waist Chain (4.9★)',
+    isLalaPick: true,
+    description:
+      'Ikat pinggang rantai mutiara wanita (waist chain belt) bergaya elegan dan mewah dengan aksen untaian mutiara putih gading & mutiara hitam onyx yang diselingi jalinan rantai emas keemasan. Dilengkapi juntaian rantai bandul mutiara di bagian depan yang menjuntai anggun, mempercantik siluet busana sekaligus memberi ilusi pinggang lebih ramping dan jenjang. Sangat mudah dipadukan dengan dress elegan, blouse modern, tunik stylish, maupun gamis pesta kondangan.',
+    fabric: 'Alloy Gold Plated Chain + Mutiara Bulat Sintetis Berkualitas (White & Black Pearl)',
+    sizes: 'Panjang Fleksibel dengan Kait Rantai (Adjustable Length)',
+    lalaNote:
+      'Look more chic & classy! Aksen rantai emas dan kombinasi mutiara putih-hitamnya bener-bener mewah, juntaian bandul di depannya bikin gamis polos atau tunik langsung kelihatan berkelas seketika!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/AKcP0ehGgx',
+  },
 
   // --- TAS ---
   {

@@ -760,6 +760,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/114jy6GY3U',
   },
+  {
+    id: 'asc-ak-11',
+    name: 'Ikat Pinggang Wanita Lebar Renda Pita Lace Waist Belt — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '10 Pilihan Warna (Silver Grey, Champagne, Dusty Pink, Sage, Black, Navy, dll)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '2rb+ terjual (784 ulasan)',
+    image: '/products/ikat-pinggang-wanita-lebar-renda-lace-waist-belt.webp',
+    badge: 'Lace Waist Belt (4.9★)',
+    isLalaPick: true,
+    description:
+      'Ikat pinggang wanita model obi lebar renda brokat (Lace Waist Belt) yang sangat anggun dan feminin. Dibuat dari renda bordir premium berpola floral scallops halus dengan sentuhan kilau benang perak (silver metallic thread) yang lembut di kulit dan tidak gatal. Dilengkapi pita tali satin panjang untuk diikat cantik di bagian depan atau samping sesuai selera. Pilihan sempurna untuk dipadukan dengan gaun brokat pesta, gaun chiffon flowy, dress satin, maupun gaun kondangan formal agar pinggang tampak ramping dan proporsional.',
+    fabric: 'Premium Floral Embroidery Lace + Satin Ribbon Ties (Halus & Nyaman Tanpa Kawat)',
+    sizes: 'Model Ikat Tali Pita Fleksibel (All Size Fit to XL)',
+    lalaNote:
+      'Look more graceful! Belt renda ini bener-bener pemanis gaun yang sempurna buat kondangan. Motif rendanya halus dengan aksen pita simpul di depan, bikin gaun brokat atau dress chiffon yang longgar langsung kelihatan ramping dan feminin banget!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/5fqZXK5W7U',
+  },
 
   // --- TAS ---
   {

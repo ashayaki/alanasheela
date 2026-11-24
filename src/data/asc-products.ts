@@ -829,4 +829,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/1W10KJLRYU',
   },
+  {
+    id: 'asc-sp-08',
+    name: 'High Heels Pesta Wanita Tali Ankle Payet Glitter — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: '3 Pilihan Warna (Black, Champagne, dan Gold)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '4rb+ terjual (2.2rb+ ulasan)',
+    image: '/products/heels-pesta-ankle-strap-payet.webp',
+    badge: 'Best Seller (4rb+)',
+    isLalaPick: true,
+    description:
+      'Sepatu high heels pesta wanita model tali pergelangan kaki (ankle strap) berhiaskan detail payet glitter dan kristal berkilauan pada bagian depan pointed toe. Desain elegan nan mewah dengan hak sedang yang sangat stabil dan tali gesper pengunci yang menjaga kaki tetap pas dan aman saat melangkah. Sangat cocok untuk acara kondangan, pesta malam, lamaran, maupun wisuda. Tersedia dalam 3 pilihan warna elegan: Black, Champagne, dan Gold. Ukuran luas dari Size 35 hingga 42.',
+    fabric: 'Glitter Mesh Payet Kristal + Soft Lining Insole + Hak Flare Heels Kokoh',
+    sizes: 'Size 35 - 42',
+    lalaNote:
+      'Heels ankle strap ini bikin pergelangan kaki kelihatan ramping dan feminin banget! Detail payet glitternya mewah tanpa lebay, haknya pas dan stabil gak bikin pegal. Terjual 4rb+ dengan rating 4.9.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/5fqZIWATce',
+  },
 ];

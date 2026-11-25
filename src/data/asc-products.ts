@@ -530,6 +530,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'TikTok Shop',
     affiliateUrl: 'https://www.tiktok.com',
   },
+  {
+    id: 'asc-hj-04',
+    name: 'Hijab — Pashmina Instant with Inner Premium Simple Elegan — Lala Look',
+    category: 'hijab',
+    categoryLabel: 'Hijab',
+    color: 'Cocoa (Tersedia 49 Pilihan Warna Lengkap)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '9rb+ terjual (1,9rb ulasan)',
+    image: '/products/pashmina-instant-inner-premium-cocoa.jpg',
+    badge: 'Pashmina Instan (4.9★)',
+    isLalaPick: true,
+    description:
+      'Pashmina instan 2-in-1 menyatu dengan inner ciput premium (Phasmina Instan Simple Elegan — Fashion Hijab Modern). Didesain praktis tanpa perlu peniti atau jarum pentul, dengan bahan premium yang lembut, sejuk, adem, dan tidak menerawang sepanjang hari. Tampil anggun, rapi, dan tetap syar\'i dengan aksen lipatan drape manis di samping. Tersedia dalam 49 pilihan warna lengkap: Cocoa, Ivory, Broken White, Warm Beige, Light Olive, Maroon, Grey Plum, Black, Grey, Soft Mint, Ice Blue, Cooper, Woody, Cappucino, Brick Red, Burgundy, Berry, Dusty Rose, Salem, Tiramisu, Cloudy, Snowy, Lilac, Mauve, Beige, Almond, Tan, Sand, Green, Brown, Mustard, Dark Army, Baby Green, Sage, Bottle, Terracotta, Zaitun, Dusty Blue, Blossom Pink, Denim, Periwinkle Blue, Navy, Misty Grey, Fossil, Dark Grey, Hazelnut, Dusty Pink, Deep Brown, dan Wardah.',
+    fabric: 'Chiffon / Ceruty Babydoll Premium + Inner Jersey Menyatu (Lembut, Adem & Tidak Menerawang)',
+    sizes: 'Ukuran Panjang Standar Pashmina Instan Syar\'i (All Size)',
+    lalaNote:
+      'Solusi tampil rapi tanpa ribet! Pashmina instan yang udah nyatu sama inner-nya ini bener-bener penolong waktu buru-buru. Gak perlu cari peniti lagi, bahannya adem dan flowy banget, aksen lipitannya bikin look kelihatan anggun, rapi, dan syar\'i sepanjang hari.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/W8TWkbbIO',
+  },
 
   // --- AKSESORIS ---
   {

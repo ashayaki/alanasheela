@@ -808,6 +808,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/7pv4CAoqPK',
   },
+  {
+    id: 'asc-ak-14',
+    name: 'Kacamata Round Glasses Timeless Classic Retro Metal Frame — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '7 Pilihan Warna (Crystal Brown, Black Glossy, Clear Grey, Rose Gold, dll)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '10rb+ terjual (20,8rb ulasan)',
+    image: '/products/kacamata-round-glasses-retro-metal-frame.webp',
+    badge: 'Round Glasses (4.8★)',
+    isLalaPick: true,
+    description:
+      'Kacamata bulat retro modern (Round Glasses: Timeless Shape Modern Look — Chic in Every Angle) dengan perpaduan frame crystal estetik dan temple metal premium yang kokoh serta ultra-ringan. Dilengkapi bantalan hidung nyaman (comfortable nose pad) yang tidak meninggalkan bekas dan detail engsel temple presisi. Tersedia dalam 7 pilihan warna stylish dengan opsi lensa lengkap kustom: Anti Blueray Normal, Photocromic Normal, Bluecromic adaptif, Lensa Indeks 1.56/1.61/1.67, lensa minus/resep, hingga lensa X-Drive dan sunglasses grey. Desain unisex yang sangat flattering di wajah, memberi siluet manis, cerdas, dan modis untuk cewek berhijab maupun gaya kasual harian.',
+    fabric: 'Premium Lightweight Metal Frame + Pilihan Lensa Kustom (Anti Blueray / Photocromic / Bluecromic / Minus / X-Drive)',
+    sizes: 'Ukuran Frame Fleksibel Ringan (All Size)',
+    lalaNote:
+      'Ini kacamata bener-bener modis banget! Bentuk round glasses-nya timeless dan chic in every angle. Framenya super enteng di wajah, nyaman seharian dipakai hijab tanpa bikin pusing di hidung, plus pilihan lensanya super lengkap dari blueray, bluecromic sampai minus!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/9Kjs2oCoe9',
+  },
 
   // --- TAS ---
   {

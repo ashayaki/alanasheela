@@ -421,50 +421,6 @@ export const ASC_PRODUCTS: ASCProduct[] = [
 
   // --- HIJAB ---
   {
-    id: 'asc-hj-01',
-    name: 'Hijab — Pashmina Silk Shimmer Serene Olive',
-    category: 'hijab',
-    categoryLabel: 'Hijab',
-    color: 'Soft Shimmer Olive',
-    price: 49000,
-    originalPrice: 75000,
-    rating: 4.9,
-    soldCount: '6.7rb+',
-    image: '/lala-dress/lala-nordic-05-fjord-serenity.jpg',
-    badge: 'Super Best Seller',
-    isLalaPick: true,
-    description:
-      'Pashmina silk dengan kilau lembut tidak norak. Mudah dibentuk, tegak di dahi, dan tidak licin saat dipakai dengan inner.',
-    fabric: 'Cradenza Silk Import',
-    lalaNote:
-      'Gampang banget dibentuk dan langsung tegak rapi seharian!',
-    platforms: ['shopee'],
-    marketplaceName: 'Shopee',
-    affiliateUrl: 'https://shopee.co.id',
-  },
-  {
-    id: 'asc-hj-02',
-    name: 'Hijab — Segiempat Voal Ultrafine Laser Cut Krem',
-    category: 'hijab',
-    categoryLabel: 'Hijab',
-    color: 'Krem Sand',
-    price: 42000,
-    originalPrice: 65000,
-    rating: 4.9,
-    soldCount: '8.4rb+',
-    image: '/lala-dress/lala-kondangan-06-buttercup-yellow.jpg',
-    badge: 'Lala Pick',
-    isLalaPick: true,
-    description:
-      'Hijab voal premium dengan pinggiran laser cut gelombang estetik. Tidak dengung di telinga dan adem dipakai seharian.',
-    fabric: 'Voal Ultrafine Signature',
-    lalaNote:
-      'Hijab ternyaman buat harian. Bahannya gak budek di kuping!',
-    platforms: ['shopee'],
-    marketplaceName: 'Shopee',
-    affiliateUrl: 'https://shopee.co.id',
-  },
-  {
     id: 'asc-hj-04',
     name: 'Hijab — Pashmina Instant with Inner Premium Simple Elegan — Lala Look',
     category: 'hijab',

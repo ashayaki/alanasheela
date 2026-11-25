@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     yandex: 'b4d4a332d9d485ce',
     other: {
       'msvalidate.01': '0B81E05FF73DE125691370C24284A71A',
+      'p:domain_verify': 'cbfbdcee7f517d2728178894731c4336',
     },
   },
   keywords: [
@@ -76,6 +77,10 @@ export default function RootLayout({
         <meta
           name="msvalidate.01"
           content="0B81E05FF73DE125691370C24284A71A"
+        />
+        <meta
+          name="p:domain_verify"
+          content="cbfbdcee7f517d2728178894731c4336"
         />
         <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
         <link rel="icon" type="image/png" sizes="512x512" href="/icon.png?v=2" />

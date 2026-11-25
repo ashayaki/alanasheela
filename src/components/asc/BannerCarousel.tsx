@@ -52,6 +52,19 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
       targetCategory: 'all',
     },
     {
+      id: 'banner-mix-match',
+      type: 'graphic',
+      isGraphic: true,
+      title: 'Segera Hadir: Mix & Match by Lala',
+      tagline: 'ONE LOOK, MANY PIECES',
+      subtitle: 'Inspirasi padu padan outfit lengkap dari hijab, atasan, rok, tas, hingga sepatu.',
+      badge: 'Segera Hadir',
+      image: '/banners/banner-mix-match-segera-hadir.jpg',
+      ctaText: 'Lihat Katalog',
+      ctaLink: '#catalog-section',
+      targetCategory: 'all',
+    },
+    {
       id: 'banner-hijab',
       type: 'showcase',
       title: 'Koleksi Pashmina & Hijab Ternyaman',
@@ -155,7 +168,7 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
               return (
                 <div
                   key={slide.id}
-                  className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[18/9] min-h-[190px] sm:min-h-[280px] md:min-h-[350px] flex items-center bg-[#f4eee4] cursor-pointer overflow-hidden"
+                  className="w-full shrink-0 relative aspect-[20/9] sm:aspect-[21/9] min-h-[160px] sm:min-h-[260px] md:min-h-[340px] flex items-center bg-[#f4eee4] cursor-pointer overflow-hidden"
                   onClick={() => {
                     if (slide.targetCategory && onSelectCategory) {
                       onSelectCategory(slide.targetCategory);
@@ -179,7 +192,7 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
             return (
               <div
                 key={slide.id}
-                className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[18/9] min-h-[200px] sm:min-h-[280px] md:min-h-[350px] flex items-center"
+                className="w-full shrink-0 relative aspect-[20/9] sm:aspect-[21/9] min-h-[180px] sm:min-h-[260px] md:min-h-[340px] flex items-center"
               >
                 {/* Background Image */}
                 <img

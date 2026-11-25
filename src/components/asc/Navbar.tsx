@@ -22,7 +22,7 @@ export function Navbar({
 }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Navigation categories including Tas, Sepatu, Mix & Match, Shopee, and TikTok Shop
+  // Navigation categories including Tas, Sepatu, Shopee, and TikTok Shop
   const menuItems = [
     { id: 'tops', label: 'Tops' },
     { id: 'bottoms', label: 'Bottoms' },
@@ -32,23 +32,15 @@ export function Navbar({
     { id: 'abaya', label: 'Abaya' },
     { id: 'hijab', label: 'Hijab' },
     { id: 'accessories', label: 'Aksesoris' },
-    { id: 'mix-match', label: 'Mix & Match' },
     { id: 'shopee', label: 'Shopee' },
     { id: 'tiktok', label: 'TikTok Shop' },
   ];
 
   const handleNavClick = (categoryId: string) => {
     onSelectCategory(categoryId);
-    if (categoryId === 'mix-match') {
-      const element = document.getElementById('mix-match-section');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    } else {
-      const element = document.getElementById('catalog-section');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
+    const element = document.getElementById('catalog-section');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
     }
     setMobileMenuOpen(false);
   };

@@ -2,10 +2,13 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://alanasheela.shop'),
+  metadataBase: new URL('https://www.alanasheela.shop'),
   title: 'ASC — Lala Style Picks | Inspirasi Belanja Modis Ala Lala',
   description:
     'Platform kurasi belanja affiliate resmi ASC (Alana Sheela Clarissa). INSPIRED BY LALA, PICKED FOR YOU. Temukan rekomendasi tops, bottoms, gamis, abaya, hijab, dan aksesoris rating 4.5+ di alanasheela.shop.',
+  verification: {
+    google: 'lmYiEY9M3o-Byv6SmYyME6LPycocowGk4lruf1ohnBM',
+  },
   keywords: [
     'ASC',
     'Alana Sheela Clarissa',
@@ -61,6 +64,10 @@ export default function RootLayout({
   return (
     <html lang="id" className="scroll-smooth">
       <head>
+        <meta
+          name="google-site-verification"
+          content="lmYiEY9M3o-Byv6SmYyME6LPycocowGk4lruf1ohnBM"
+        />
         <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
         <link rel="icon" type="image/png" sizes="512x512" href="/icon.png?v=2" />
         <link rel="apple-touch-icon" href="/icon.png?v=2" />

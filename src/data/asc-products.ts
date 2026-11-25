@@ -854,6 +854,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/114k7YpiwV',
   },
+  {
+    id: 'asc-ak-16',
+    name: 'Sunglasses Kacamata Hitam Anti Silau Korean Look Modern Square — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '8 Pilihan Varian (659 Black/Grey/Brown UV400, 808 Black/Grey Polarized, A627 Black-Grey/Green/Yellow)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.7,
+    soldCount: '10rb+ terjual (7,9rb ulasan)',
+    image: '/products/sunglasses-anti-silau-korean-look-black.jpg',
+    badge: 'Korean Look (4.7★)',
+    isLalaPick: true,
+    description:
+      'Kacamata hitam sunglasses gaya Korea modern (Sunglasses: Modern & Timeless Look — Chic in Every Angle / Look More Confident Everyday) dengan siluet frame tegas yang memberi kesan berkarakter, tirus, dan sangat stylish. Dilengkapi engsel kuat tahan lama, nosepad nyaman anti-slip yang tidak mudah melorot, serta tungkai elastis fleksibel yang menyesuaikan kontur wajah tanpa rasa menekan. Memiliki lensa pelindung UV tingkat tinggi yang melindungi mata dari silau matahari terik saat berkendara, liburan, maupun aktivitas outdoor. Tersedia dalam 8 varian warna & tipe lensa pilihan: 659 Black UV400, 659 Grey UV400, 659 Brown UV400, 808 Black Polarized, 808 Grey Polarized, A627 Black - Grey, A627 Black - Green, dan A627 Black - Yellow.',
+    fabric: 'Premium Lightweight Frame + UV400 & Polarized Protection Lens (Engsel Kuat & Tungkai Elastis)',
+    sizes: 'Ukuran Frame Fleksibel Ringan (All Size)',
+    lalaNote:
+      'Look more confident everyday! Kacamata hitam ini keren banget buat OOTD hijab pashmina atau busana kasual/tweed. Framenya ringan, engselnya kokoh, dan lensanya teduh anti-silau di mata saat panas terik.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/3LSetrdCq1',
+  },
 
   // --- TAS ---
   {

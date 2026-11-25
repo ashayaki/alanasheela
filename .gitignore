@@ -45,6 +45,7 @@ lala-dress/
 /*.jpg
 /*.webp
 *.html
+!public/*.html
 *.json
 !package.json
 !package-lock.json

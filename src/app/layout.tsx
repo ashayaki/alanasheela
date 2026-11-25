@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     'Platform kurasi belanja affiliate resmi ASC (Alana Sheela Clarissa). INSPIRED BY LALA, PICKED FOR YOU. Temukan rekomendasi tops, bottoms, gamis, abaya, hijab, dan aksesoris rating 4.5+ di alanasheela.shop.',
   verification: {
     google: 'lmYiEY9M3o-Byv6SmYyME6LPycocowGk4lruf1ohnBM',
+    yandex: 'b4d4a332d9d485ce',
   },
   keywords: [
     'ASC',
@@ -68,6 +69,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="lmYiEY9M3o-Byv6SmYyME6LPycocowGk4lruf1ohnBM"
         />
+        <meta name="yandex-verification" content="b4d4a332d9d485ce" />
         <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
         <link rel="icon" type="image/png" sizes="512x512" href="/icon.png?v=2" />
         <link rel="apple-touch-icon" href="/icon.png?v=2" />

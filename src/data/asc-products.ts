@@ -831,6 +831,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/9Kjs2oCoe9',
   },
+  {
+    id: 'asc-ak-15',
+    name: 'Kacamata Round Glasses Fashionable Tungkai Elastis — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '6 Pilihan Warna (Crystal Grey, Black Gold, Black Silver, Crystal Brown, Crystal Green, Crystal White)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '3rb+ terjual (1,4rb ulasan)',
+    image: '/products/kacamata-round-glasses-crystal-grey-fashionable.jpg',
+    badge: 'Fashionable (4.9★)',
+    isLalaPick: true,
+    description:
+      'Kacamata bulat retro modern (Round Glasses: Timeless Shape Modern Look — Chic in Every Angle) berdesain unik & stylish dengan kualitas premium. Dilengkapi tungkai elastis fleksibel yang tidak mudah patah, nosepad nyaman yang pas di hidung dan anti-bekas, serta detail temple presisi yang sangat ringan dipakai seharian. Tersedia dalam 6 pilihan warna frame asli (Crystal Grey, Black Gold, Black Silver, Crystal Brown, Crystal Green, Crystal White) dengan opsi pilihan lensa lengkap: Frame Saja, Anti Radiasi Normal, 1.56/1.67 Anti Radiasi, Anti Blueray Normal, 1.56/1.61/1.67 Anti Blueray, Photo Grey Normal, 1.56 Photo Grey, 1.56 Photo Brown, Bluecromic Normal, 1.56/1.61 Bluecromic, Sunglasses Grey Minus, dan X-Drive Minus. Memberikan penglihatan jernih, anti-silau, dan siluet wajah yang manis, cerdas, serta anggun untuk wanita berhijab.',
+    fabric: 'Premium Lightweight Frame Tungkai Elastis + Pilihan Lensa (Anti Radiasi / Blueray / Photo Grey / Bluecromic / Minus / X-Drive)',
+    sizes: 'Ukuran Frame Fleksibel Ringan (All Size)',
+    lalaNote:
+      'Suka banget sama frame Crystal Grey ini! Tungkainya elastis jadi fleksibel gak gampang patah, nosepad-nya empuk gak bikin pegal di hidung. Pas banget dipakai ngantor atau hangout dengan hijab, bikin look kelihatan chic, cerdas, dan modern!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/114k7YpiwV',
+  },
 
   // --- TAS ---
   {

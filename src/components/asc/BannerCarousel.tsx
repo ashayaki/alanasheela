@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, Sparkles, Megaphone, ArrowRight, ArrowUpRigh
 
 interface SlideItem {
   id: string;
-  type: 'brand' | 'showcase' | 'ad-slot';
+  type: 'graphic' | 'brand' | 'showcase' | 'ad-slot';
   title: string;
   tagline?: string;
   subtitle: string;
@@ -13,59 +13,69 @@ interface SlideItem {
   image: string;
   ctaText: string;
   ctaLink: string;
+  targetCategory?: string;
   isExternal?: boolean;
   showLogo?: boolean;
+  isGraphic?: boolean;
 }
 
-export function BannerCarousel() {
+interface BannerCarouselProps {
+  onSelectCategory?: (category: string) => void;
+}
+
+export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
   const slides: SlideItem[] = [
     {
-      id: 'banner-brand',
-      type: 'brand',
-      title: 'Lala Style Picks',
+      id: 'banner-signature',
+      type: 'graphic',
+      isGraphic: true,
+      title: 'Inspirasi Gaya Anggun & Modis Pilihan Lala',
       tagline: 'INSPIRED BY LALA, PICKED FOR YOU',
-      subtitle: 'Inspirasi Belanja Modis Ala Lala',
-      badge: 'Official Platform',
-      image: '/lala-dress/lala-kondangan-01-sage-champagne.jpg',
-      ctaText: 'Lihat Koleksi Baju',
+      subtitle: 'Semua busana dan aksesoris dipilih langsung dengan standar bahan adem, jahitan rapi, dan rating toko 4.8★ ke atas.',
+      badge: 'Signature Collection',
+      image: '/banners/banner-curated-by-lala-signature.jpg',
+      ctaText: 'Jelajahi Katalog Pilihan',
       ctaLink: '#catalog-section',
-      showLogo: true,
+      targetCategory: 'all',
     },
     {
-      id: 'banner-ad-1',
-      type: 'ad-slot',
-      title: 'Slot Banner Iklan Tersedia',
-      tagline: 'PROMOSI & SPONSORSHIP BRAND',
-      subtitle: 'Ingin produk atau brand fashion Anda dilihat ribuan pengunjung alanasheela.shop? Pasang banner di sini!',
-      badge: 'Ruang Promosi & Iklan',
-      image: '/lala-dress/lala-look-01-emerald-gold.jpg',
-      ctaText: 'Pasang Iklan Sekarang',
-      ctaLink: 'https://wa.me/?text=Halo%20Admin%20ASC%20Official,%20saya%20berminat%20untuk%20pasang%20banner%20iklan%20di%20alanasheela.shop.%20Mohon%20info%20ketentuan%20dan%20biayanya.',
-      isExternal: true,
-    },
-    {
-      id: 'banner-showcase',
+      id: 'banner-hijab',
       type: 'showcase',
-      title: 'Nordic Series & Earth Tone Collection',
-      tagline: 'WARNA TENANG & ANGGUN',
-      subtitle: 'Paduan warna tenang olive, krem alami, dan dusty pastel yang sejuk di mata.',
-      badge: 'Rekomendasi Favorit',
-      image: '/lala-dress/lala-nordic-06-nordic-blue.jpg',
-      ctaText: 'Jelajahi Pilihan',
+      title: 'Koleksi Pashmina & Hijab Ternyaman',
+      tagline: 'LEMBUT • FLOWY • 30+ PILIHAN WARNA',
+      subtitle: 'Dari Pashmina Ceruty Baby Doll meleyot cantik hingga Pashmina Instan tanpa peniti. Temukan warna terbaik untuk kulitmu.',
+      badge: 'Bestseller Series',
+      image: '/products/pashmina-ceruty-baby-doll-mauve.jpg',
+      ctaText: 'Lihat Koleksi Hijab',
       ctaLink: '#catalog-section',
+      targetCategory: 'hijab',
       showLogo: true,
     },
     {
-      id: 'banner-ad-2',
-      type: 'ad-slot',
-      title: 'Kerja Sama Brand & Sponsor Partner',
-      tagline: 'KOLABORASI AFFILIATE',
-      subtitle: 'Buka peluang kolaborasi affiliasi dan promosi produk busana Anda bersama ASC (Alana Sheela Clarissa).',
-      badge: 'Open Partnership',
-      image: '/lala-dress/abaya-2layer-1.jpg',
-      ctaText: 'Hubungi Admin Iklan',
-      ctaLink: 'https://wa.me/?text=Halo%20Admin%20ASC%20Official,%20kami%20ingin%20mengajukan%20kerja%20sama%20promosi/iklan%20produk%20di%20alanasheela.shop.',
-      isExternal: true,
+      id: 'banner-eyewear',
+      type: 'showcase',
+      title: 'Chic in Every Angle — Kacamata Elegan',
+      tagline: 'ANTI RADIASI UV • FRAME TR90 RINGAN • KOREAN STYLE',
+      subtitle: 'Lengkapi outfit harianmu dengan frame modern yang ringan dipakai seharian tanpa pusing dan tanpa bekas di hidung.',
+      badge: 'Korean Aesthetic',
+      image: '/products/kacamata-cat-eye-crystal-green-fashionable.jpg',
+      ctaText: 'Cek Model Kacamata',
+      ctaLink: '#catalog-section',
+      targetCategory: 'accessories',
+      showLogo: true,
+    },
+    {
+      id: 'banner-gamis',
+      type: 'showcase',
+      title: 'Tampil Memukau di Setiap Momen Spesial',
+      tagline: 'DRESS PESTA • GAMIS BROKAT • ABAYA MODERN',
+      subtitle: 'Kurasi gamis brokat mutiara, abaya anti-UV, dan satin silk dengan potongan jatuh yang membuat siluet tubuh tampak jenjang dan berkelas.',
+      badge: 'Special Occasion',
+      image: '/lala-dress/lala-kondangan-01-sage-champagne.jpg',
+      ctaText: 'Pilih Busana Pesta',
+      ctaLink: '#catalog-section',
+      targetCategory: 'gamis',
+      showLogo: true,
     },
   ];
 
@@ -128,12 +138,35 @@ export function BannerCarousel() {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {slides.map((slide) => {
+            if (slide.isGraphic) {
+              return (
+                <div
+                  key={slide.id}
+                  className="w-full shrink-0 relative aspect-[21/9] sm:aspect-[24/9] min-h-[160px] sm:min-h-[280px] md:min-h-[350px] flex items-center bg-[#f4eee4] cursor-pointer overflow-hidden"
+                  onClick={() => {
+                    if (slide.targetCategory && onSelectCategory) {
+                      onSelectCategory(slide.targetCategory);
+                    }
+                    const el = document.getElementById('catalog-section');
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-[1.01]"
+                    loading="lazy"
+                  />
+                </div>
+              );
+            }
+
             const isAd = slide.type === 'ad-slot';
 
             return (
               <div
                 key={slide.id}
-                className="w-full shrink-0 relative aspect-[16/10] sm:aspect-[21/9] md:aspect-[24/9] min-h-[290px] sm:min-h-[340px] md:min-h-[370px] flex items-center"
+                className="w-full shrink-0 relative aspect-[21/9] sm:aspect-[24/9] min-h-[220px] sm:min-h-[280px] md:min-h-[350px] flex items-center"
               >
                 {/* Background Image */}
                 <img
@@ -195,6 +228,14 @@ export function BannerCarousel() {
                       href={slide.ctaLink}
                       target={slide.isExternal ? '_blank' : '_self'}
                       rel={slide.isExternal ? 'noopener noreferrer' : ''}
+                      onClick={(e) => {
+                        if (slide.targetCategory && onSelectCategory) {
+                          e.preventDefault();
+                          onSelectCategory(slide.targetCategory);
+                          const el = document.getElementById('catalog-section');
+                          if (el) el.scrollIntoView({ behavior: 'smooth' });
+                        }
+                      }}
                       className={`inline-flex items-center gap-2 text-xs font-medium tracking-wider uppercase px-6 py-3 rounded-full transition-all cursor-pointer shadow-sm ${
                         isAd
                           ? 'bg-[#5c6d48] hover:bg-[#4a5839] text-white'

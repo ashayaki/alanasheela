@@ -95,8 +95,13 @@ export default function Page() {
         }}
       />
 
-      {/* 2. Banner Berjalan / Slider Horizontal (Langsung di paling atas dengan Logo ASC terintegrasi & siap slot iklan) */}
-      <BannerCarousel />
+      {/* 2. Banner Berjalan / Slider Horizontal (Langsung di paling atas dengan Logo ASC terintegrasi) */}
+      <BannerCarousel
+        onSelectCategory={(cat) => {
+          setActiveCategory(cat);
+          scrollToCatalog();
+        }}
+      />
 
       {/* 3. Katalog Belanja Terkurasi (Tops, Bottoms, Tas, Sepatu, Gamis, Abaya, Hijab, Aksesoris) */}
       <CatalogSection

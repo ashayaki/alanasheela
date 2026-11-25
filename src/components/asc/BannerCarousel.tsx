@@ -29,12 +29,12 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
       id: 'banner-signature',
       type: 'graphic',
       isGraphic: true,
-      title: 'Inspirasi Gaya Anggun & Modis Pilihan Lala',
-      tagline: 'INSPIRED BY LALA, PICKED FOR YOU',
-      subtitle: 'Semua busana dan aksesoris dipilih langsung dengan standar bahan adem, jahitan rapi, dan rating toko 4.8★ ke atas.',
-      badge: 'Signature Collection',
-      image: '/banners/banner-curated-by-lala-signature.jpg',
-      ctaText: 'Jelajahi Katalog Pilihan',
+      title: 'Temukan Gaya Terbaikmu Bersama Lala',
+      tagline: 'BE MODEST, BE ELEGANT, BE YOU',
+      subtitle: 'Modest Fashion, Elegant Style, Uniquely You.',
+      badge: 'Curated by Lala',
+      image: '/banners/banner-temukan-gaya-terbaikmu.webp',
+      ctaText: 'Jelajahi Koleksi Pilihan',
       ctaLink: '#catalog-section',
       targetCategory: 'all',
     },
@@ -155,7 +155,7 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
               return (
                 <div
                   key={slide.id}
-                  className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[21/9] md:aspect-[24/9] min-h-[190px] sm:min-h-[280px] md:min-h-[350px] flex items-center bg-[#f4eee4] cursor-pointer overflow-hidden"
+                  className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[18/9] min-h-[190px] sm:min-h-[280px] md:min-h-[350px] flex items-center bg-[#f4eee4] cursor-pointer overflow-hidden"
                   onClick={() => {
                     if (slide.targetCategory && onSelectCategory) {
                       onSelectCategory(slide.targetCategory);
@@ -179,7 +179,7 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
             return (
               <div
                 key={slide.id}
-                className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[21/9] md:aspect-[24/9] min-h-[200px] sm:min-h-[280px] md:min-h-[350px] flex items-center"
+                className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[18/9] min-h-[200px] sm:min-h-[280px] md:min-h-[350px] flex items-center"
               >
                 {/* Background Image */}
                 <img

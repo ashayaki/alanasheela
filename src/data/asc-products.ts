@@ -208,28 +208,6 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/gRrL7uFLV',
   },
-  {
-    id: 'asc-ab-02',
-    name: 'Abaya Modern Batwing Nordic Minimalist',
-    category: 'abaya',
-    categoryLabel: 'Abaya',
-    color: 'Nordic Navy',
-    price: 215000,
-    originalPrice: 275000,
-    rating: 4.8,
-    soldCount: '980+',
-    image: '/lala-dress/lala-nordic-12-winter-navy.jpg',
-    badge: 'Lala Pick',
-    isLalaPick: true,
-    description:
-      'Abaya potongan batwing longgar yang sangat nyaman untuk ruang gerak bebas. Manset tangan kancing gold chic.',
-    fabric: 'Linen Rami Soft Touch',
-    lalaNote:
-      'Sangat loose dan sejuk, nyaman dipakai seharian di cuaca panas.',
-    platforms: ['shopee'],
-    marketplaceName: 'Shopee',
-    affiliateUrl: 'https://shopee.co.id',
-  },
 
   // --- TOPS (ATASAN) ---
   {

@@ -900,6 +900,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/3Vm56DfYMp',
   },
+  {
+    id: 'asc-ak-18',
+    name: 'Kacamata Model Cat Eye Elegan dan Nyaman Crystal Green — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '8 Pilihan Warna (Crystal Green, Black Gold, Black Silver, Crystal Brown, Crystal Grey, Crystal White, Gradient Grey, Corak)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '4rb+ terjual (1,6rb ulasan)',
+    image: '/products/kacamata-cat-eye-crystal-green-fashionable.jpg',
+    badge: 'Cat Eye (4.9★)',
+    isLalaPick: true,
+    description:
+      'Kacamata model cat-eye modern yang feminin dan elegan (Cat-Eye / Round Glasses: Modern & Elegant Look — Chic in Every Angle / Look More Confident Everyday) dengan desain unik bersudut tegas yang memberi efek wajah tampak lebih tirus, tegas, dan menawan. Dilengkapi engsel temple beraksen geometris mewah, nosepad nyaman anti-slip yang tidak mudah melorot, serta tungkai elastis fleksibel yang menyesuaikan kontur wajah tanpa rasa menekan. Sangat ringan dipakai berjam-jam untuk kerja, kuliah, maupun OOTD hijab. Tersedia dalam 8 pilihan warna asli (Crystal Green, Black Gold, Black Silver, Crystal Brown, Crystal Grey, Crystal White, Gradient Grey, Corak) dengan pilihan varian lensa lengkap: Frame Only, Anti Radiasi Normal/Minus, Anti Blueray Normal/Minus, Photocromic Normal, Photo Grey/Brown Minus, Bluecromic Normal/Minus, hingga lensa X-Drive.',
+    fabric: 'Premium Lightweight Frame + UV & Radiation Protection Lens (Desain Sudut Tegas & Tungkai Elastis)',
+    sizes: 'Ukuran Frame Fleksibel Ringan (All Size)',
+    lalaNote:
+      'Look more confident everyday! Warna Crystal Green ini estetik dan unik banget, apalagi bentuk cat eye-nya bikin wajah langsung kelihatan lebih tirus dan tegas. Tungkainya elastis dan nosepad-nya gak licin, nyaman banget seharian dipakai bareng hijab!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/AAIz2VBn6m',
+  },
 
   // --- TAS ---
   {

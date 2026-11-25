@@ -877,6 +877,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/3LSetrdCq1',
   },
+  {
+    id: 'asc-ak-17',
+    name: 'Kacamata Minus Photocromic Fashionable Round Glasses Gold — Lala Look',
+    category: 'accessories',
+    categoryLabel: 'Aksesoris',
+    color: '6 Pilihan Warna (Gold, Rose Gold, Black Rose Gold, Silver, Black Silver, Black)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '10rb+ terjual (4,4rb ulasan)',
+    image: '/products/kacamata-minus-photocromic-round-glasses-gold.jpg',
+    badge: 'Photocromic (4.9★)',
+    isLalaPick: true,
+    description:
+      'Kacamata bulat modern dan elegan (Round Glasses: Modern & Elegant Look — Chic in Every Angle / Look More Confident Everyday) dengan frame metal tipis bersepuh warna emas mewah yang memberi siluet wajah manis, bersih, dan berkelas. Dilengkapi detail temple ramping presisi, nosepad nyaman anti-tekan, serta tungkai elastis fleksibel yang ringan dan nyaman dipakai seharian tanpa rasa pusing di kepala. Melindungi mata dari paparan sinar UV dan radiasi layar gadget dengan pilihan lensa fungsional berkualitas tinggi. Tersedia dalam 6 pilihan warna frame asli (Gold, Rose Gold, Black Rose Gold, Silver, Black Silver, Black) dengan opsi tipe lensa: Anti Radiasi Blueray, Bluecromic, Anti Blueray Minus, Photocromic Minus, serta Bluecromic Minus.',
+    fabric: 'Premium Lightweight Metal Frame + Pilihan Lensa (Anti Radiasi Blueray / Bluecromic / Photocromic Minus)',
+    sizes: 'Ukuran Frame Fleksibel Ringan (All Size)',
+    lalaNote:
+      'Suka banget sama frame Gold ini, tipis dan kelihatan mewah tapi gak lebay! Tungkainya elastis dan nosepad-nya nyaman seharian dipadukan hijab pastel atau blazer tweed. Ditambah lensa photocromic/bluecromic minus, praktis banget di dalam maupun luar ruangan.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/3Vm56DfYMp',
+  },
 
   // --- TAS ---
   {

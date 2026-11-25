@@ -230,28 +230,6 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://shopee.co.id',
   },
-  {
-    id: 'asc-ab-03',
-    name: 'Abaya Kimono Cardigan Terracotta Rose',
-    category: 'abaya',
-    categoryLabel: 'Abaya',
-    color: 'Terracotta Krem',
-    price: 228000,
-    originalPrice: 290000,
-    rating: 4.8,
-    soldCount: '740+',
-    image: '/lala-dress/lala-look-02-terracotta-rose.jpg',
-    badge: 'Earth Tone',
-    isLalaPick: false,
-    description:
-      'Bisa dipakai sebagai abaya tertutup atau outerwear terbuka. Menggunakan belt lepas pasang.',
-    fabric: 'Poli Katun Twill Premium',
-    lalaNote:
-      'Bisa dijadiin outer juga, multifungsi buat mix & match!',
-    platforms: ['tiktok'],
-    marketplaceName: 'TikTok Shop',
-    affiliateUrl: 'https://www.tiktok.com',
-  },
 
   // --- TOPS (ATASAN) ---
   {
@@ -507,28 +485,6 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     platforms: ['shopee'],
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://shopee.co.id',
-  },
-  {
-    id: 'asc-hj-03',
-    name: 'Hijab — Pashmina Kaos Rayon Adem Meleyot',
-    category: 'hijab',
-    categoryLabel: 'Hijab',
-    color: 'Muted Dusty Mauve',
-    price: 39000,
-    originalPrice: 59000,
-    rating: 4.8,
-    soldCount: '5.1rb+',
-    image: '/lala-dress/lala-kondangan-05-misty-mauve.jpg',
-    badge: 'Gaya Meleyot Viral',
-    isLalaPick: false,
-    description:
-      'Pashmina kaos elastis super jatuh yang pas untuk gaya hijab meleyot santai khas Gen-Z.',
-    fabric: 'Rayon Spandex Super Soft',
-    lalaNote:
-      'Tinggal lilit tanpa jarum pentul juga udah nempel di kepala.',
-    platforms: ['tiktok'],
-    marketplaceName: 'TikTok Shop',
-    affiliateUrl: 'https://www.tiktok.com',
   },
   {
     id: 'asc-hj-04',
@@ -970,73 +926,7 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     affiliateUrl: 'https://s.shopee.co.id/AAIz2VBn6m',
   },
 
-  // --- TAS ---
-  {
-    id: 'asc-tas-01',
-    name: 'Tas — Minimalist Shoulder Bag Krem Ivory — Lala Look',
-    category: 'tas',
-    categoryLabel: 'Tas',
-    color: 'Ivory Krem',
-    price: 135000,
-    originalPrice: 189000,
-    rating: 4.9,
-    soldCount: '4.2rb+',
-    image: '/lala-dress/lala-look-03-cobalt-platinum.jpg',
-    badge: 'Favorit Lala',
-    isLalaPick: true,
-    description:
-      'Tas bahu estetik dengan siluet melengkung modern. Muat handphone, dompet lipat, dan pouch makeup kecil.',
-    fabric: 'Smooth Vegan Leather (Mudah Dibersihkan)',
-    lalaNote:
-      'Ukurannya pas banget dibawa jalan santai atau kondangan, warnanya masuk ke semua baju!',
-    platforms: ['shopee'],
-    marketplaceName: 'Shopee',
-    affiliateUrl: 'https://shopee.co.id',
-  },
-  {
-    id: 'asc-tas-02',
-    name: 'Tas — Puffy Cloud Bag Selempang Sage Green',
-    category: 'tas',
-    categoryLabel: 'Tas',
-    color: 'Sage Green',
-    price: 99000,
-    originalPrice: 145000,
-    rating: 4.8,
-    soldCount: '2.7rb+',
-    image: '/lala-dress/lala-nordic-10-olive-cream.jpg',
-    badge: 'Tren Gen-Z',
-    isLalaPick: false,
-    description:
-      'Tas selempang empuk bertekstur quilted awan yang ringan dan playful. Tali selempang adjustable lembut di pundak.',
-    fabric: 'Nylon Quilted Waterproof + Dacron Empuk',
-    lalaNote:
-      'Ringan banget di pundak, cocok buat ngampus atau nongkrong di cafe.',
-    platforms: ['tiktok'],
-    marketplaceName: 'TikTok Shop',
-    affiliateUrl: 'https://www.tiktok.com',
-  },
-  {
-    id: 'asc-tas-03',
-    name: 'Tas — Casual Canvas Tote Bag Minimalist Sandstone',
-    category: 'tas',
-    categoryLabel: 'Tas',
-    color: 'Sandstone Khaki',
-    price: 89000,
-    originalPrice: 129000,
-    rating: 4.8,
-    soldCount: '3.1rb+',
-    image: '/lala-dress/lala-look-04-olive-saffron.jpg',
-    badge: 'Muat Banyak',
-    isLalaPick: false,
-    description:
-      'Tote bag kanvas tebal dengan resleting penutup dan saku rahasia di dalam. Muat laptop 14 inch dan buku catatan.',
-    fabric: 'Canvas Twill Premium 12oz',
-    lalaNote:
-      'Kuat dan muat banyak barang bawaan tanpa kelihatan bulky.',
-    platforms: ['shopee'],
-    marketplaceName: 'Shopee',
-    affiliateUrl: 'https://shopee.co.id',
-  },
+  // --- TAS (Koleksi sedang disiapkan) ---
 
   // --- SEPATU ---
   {

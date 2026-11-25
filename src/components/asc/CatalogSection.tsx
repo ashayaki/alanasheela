@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Heart, Eye, ExternalLink, Star, ShoppingBag } from 'lucide-react';
+import { Heart, Eye, ExternalLink, Star, ShoppingBag, Sparkles } from 'lucide-react';
 import { ASCProduct } from '@/data/asc-products';
 
 interface CatalogSectionProps {
@@ -76,13 +76,27 @@ export function CatalogSection({
 
         {/* Product Grid */}
         {products.length === 0 ? (
-          <div className="text-center py-16 text-[#69705f]">
-            <p className="text-base">Tidak ada produk yang cocok dengan pencarian Anda.</p>
+          <div className="text-center py-20 px-4 max-w-md mx-auto space-y-4">
+            <div className="w-12 h-12 mx-auto rounded-full bg-[#f0f4ea] flex items-center justify-center text-[#55623f] border border-[#dce5d2]">
+              <Sparkles className="w-5 h-5 text-[#6c7853]" />
+            </div>
+            <p className="text-lg font-serif-luxury font-medium text-[#24281e]">
+              {activeCategory === 'tas'
+                ? 'Koleksi Tas Sedang Disiapkan'
+                : activeCategory === 'tiktok' || activeCategory === 'tiktokshop'
+                ? 'Koleksi TikTok Shop Sedang Disiapkan'
+                : 'Belum Ada Produk di Kategori Ini'}
+            </p>
+            <p className="text-xs text-[#717a66] leading-relaxed">
+              {activeCategory === 'tas' || activeCategory === 'tiktok' || activeCategory === 'tiktokshop'
+                ? 'Kurasi produk rekomendasi terbaik pilihan Lala akan segera dihadirkan di sini.'
+                : 'Silakan pilih kategori lainnya atau tampilkan semua koleksi terkurasi.'}
+            </p>
             <button
               onClick={() => onSelectCategory('all')}
-              className="mt-3 text-xs font-semibold tracking-wider text-[#4a5438] underline cursor-pointer"
+              className="mt-2 inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-[#4a5438] hover:bg-[#3b442b] text-white text-xs font-medium tracking-wider uppercase transition-all cursor-pointer shadow-2xs"
             >
-              Tampilkan Semua Koleksi
+              <span>Tampilkan Semua Koleksi</span>
             </button>
           </div>
         ) : (

@@ -31,6 +31,7 @@ push_to_github.bat
 *.wav
 *.mp4
 *.xml
+!public/*.xml
 *.py
 *.ps1
 /*.js

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'lmYiEY9M3o-Byv6SmYyME6LPycocowGk4lruf1ohnBM',
     yandex: 'b4d4a332d9d485ce',
+    other: {
+      'msvalidate.01': '0B81E05FF73DE125691370C24284A71A',
+    },
   },
   keywords: [
     'ASC',
@@ -70,6 +73,10 @@ export default function RootLayout({
           content="lmYiEY9M3o-Byv6SmYyME6LPycocowGk4lruf1ohnBM"
         />
         <meta name="yandex-verification" content="b4d4a332d9d485ce" />
+        <meta
+          name="msvalidate.01"
+          content="0B81E05FF73DE125691370C24284A71A"
+        />
         <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
         <link rel="icon" type="image/png" sizes="512x512" href="/icon.png?v=2" />
         <link rel="apple-touch-icon" href="/icon.png?v=2" />

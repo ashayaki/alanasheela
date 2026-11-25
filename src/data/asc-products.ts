@@ -555,6 +555,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/9pg8dwO9as',
   },
+  {
+    id: 'asc-hj-07',
+    name: 'Hijab — Pashmina Ceruty Baby Doll Premium Flowy — Lala Look',
+    category: 'hijab',
+    categoryLabel: 'Hijab',
+    color: 'Mauve (Tersedia 33 Pilihan Warna Lengkap)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '10rb+ terjual (5rb ulasan)',
+    image: '/products/pashmina-ceruty-baby-doll-mauve.jpg',
+    badge: 'Ceruty Babydoll (4.9★)',
+    isLalaPick: true,
+    description:
+      'Pashmina Ceruty Baby Doll premium dengan tekstur pasir lembut khas babydoll yang super flowy, jatuh anggun, ringan, dan adem saat dikenakan. Material ceruty baby doll berkualitas tinggi ini sangat mudah diatur dan di-styling mengikuti berbagai tren hijab modern, memberi siluet drape meleyot cantik yang feminin dan tidak mudah kusut. Sangat cocok untuk gaya busana harian, kuliah, kerja, hingga acara kondangan. Tersedia dalam 33 pilihan warna lengkap: Mauve, Burgundy, Black, Sage, Biscuit, Blush, Coffee, Cream, Nude, Off White, Navy, Denim, Choco, Dusty Pink, Iron Grey, Salmon, Caramel, Burlwood, Grey Stone, Army, Ivory, Tortilla, Peanut, Wood, Espresso, Terracotta, Pastel Pink, Candy Pink, Magenta, Mulberry, Sky Blue, Warm Blue, dan Ash Grey.',
+    fabric: 'Ceruty Baby Doll Premium (Tekstur Pasir Lembut, Flowy Meleyot Cantik, Ringan & Adem)',
+    sizes: 'All Size',
+    lalaNote:
+      'Pashmina ceruty baby doll ini bahan andalan sejuta umat yang gak pernah salah! Jatuhnya flowy banget dan meleyot cantik di kepala, gampang distyle buat look casual maupun formal. Warna Mauve ini manis banget dan bikin wajah kelihatan lebih fresh berseri!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/2La7iAUIqp',
+  },
 
   // --- AKSESORIS ---
   {

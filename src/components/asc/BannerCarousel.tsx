@@ -39,6 +39,19 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
       targetCategory: 'all',
     },
     {
+      id: 'banner-lifestyle',
+      type: 'graphic',
+      isGraphic: true,
+      title: 'Belanja Cerdas, Tampil Lebih Anggun Setiap Hari',
+      tagline: 'CURATED BY LALA',
+      subtitle: 'Karena gaya terbaik dimulai dari pilihan yang tepat.',
+      badge: 'Curated by Lala',
+      image: '/banners/banner-belanja-cerdas-anggun.jpg',
+      ctaText: 'Jelajahi Koleksi Pilihan',
+      ctaLink: '#catalog-section',
+      targetCategory: 'all',
+    },
+    {
       id: 'banner-hijab',
       type: 'showcase',
       title: 'Koleksi Pashmina & Hijab Ternyaman',
@@ -142,7 +155,7 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
               return (
                 <div
                   key={slide.id}
-                  className="w-full shrink-0 relative aspect-[21/9] sm:aspect-[24/9] min-h-[160px] sm:min-h-[280px] md:min-h-[350px] flex items-center bg-[#f4eee4] cursor-pointer overflow-hidden"
+                  className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[21/9] md:aspect-[24/9] min-h-[190px] sm:min-h-[280px] md:min-h-[350px] flex items-center bg-[#f4eee4] cursor-pointer overflow-hidden"
                   onClick={() => {
                     if (slide.targetCategory && onSelectCategory) {
                       onSelectCategory(slide.targetCategory);
@@ -166,7 +179,7 @@ export function BannerCarousel({ onSelectCategory }: BannerCarouselProps) {
             return (
               <div
                 key={slide.id}
-                className="w-full shrink-0 relative aspect-[21/9] sm:aspect-[24/9] min-h-[220px] sm:min-h-[280px] md:min-h-[350px] flex items-center"
+                className="w-full shrink-0 relative aspect-[16/9] sm:aspect-[21/9] md:aspect-[24/9] min-h-[200px] sm:min-h-[280px] md:min-h-[350px] flex items-center"
               >
                 {/* Background Image */}
                 <img

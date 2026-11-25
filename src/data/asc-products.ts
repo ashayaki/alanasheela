@@ -532,6 +532,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/1gKQuuKWCz',
   },
+  {
+    id: 'asc-hj-06',
+    name: 'Hijab — Pashmina Voal Arabian Printed Cantik Elegan — Lala Look',
+    category: 'hijab',
+    categoryLabel: 'Hijab',
+    color: 'Dark Grey (Tersedia 10 Pilihan Warna Asli)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '10rb+ terjual (4,1rb ulasan)',
+    image: '/products/pashmina-voal-arabian-printed-dark-grey.jpg',
+    badge: 'Arabian Voal (4.8★)',
+    isLalaPick: true,
+    description:
+      'Pashmina voal motif Arabian printed eksklusif berukuran 75 cm x 175 cm dengan sentuhan motif watercolor artistik yang sangat anggun dan modern. Menggunakan material voal motif print premium yang halus, adem, tegak paripurna di dahi tanpa mudah bergeser, serta sangat mudah dibentuk mengikuti berbagai gaya hijab harian maupun acara formal. Tersedia dalam 10 pilihan warna motif asli dari toko: Dark Grey, Ocean Grey, Pink Blush, Stone Grey, Blue Wine, Dark Brown, Olive Sheen, Blue Ocean, Emerald, dan Aurora.',
+    fabric: 'Voal Motif Print Premium (Tegak di Dahi, Halus, Ringan, Adem & Tidak Licin)',
+    sizes: '75 cm x 175 cm',
+    lalaNote:
+      'Motif print Arabian-nya mewah dan artistik banget! Bahannya voal jadi gampang banget tegak rapi di dahi tanpa letoy, gak bikin gerah, dan warna Dark Grey ini super netral dipadukan busana warna apa pun.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/9pg8dwO9as',
+  },
 
   // --- AKSESORIS ---
   {

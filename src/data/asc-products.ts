@@ -553,6 +553,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/W8TWkbbIO',
   },
+  {
+    id: 'asc-hj-05',
+    name: 'Hijab — Pashmina Viscose Premium Flowy Lembut — Lala Look',
+    category: 'hijab',
+    categoryLabel: 'Hijab',
+    color: 'Midnight (Tersedia 62 Pilihan Warna Lengkap)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '10rb+ terjual (19,9rb ulasan)',
+    image: '/products/pashmina-viscose-premium-midnight-navy.jpg',
+    badge: 'Viscose Premium (4.9★)',
+    isLalaPick: true,
+    description:
+      'Pashmina bahan viscose premium yang terkenal super lembut, flowy, adem, dan jatuh anggun saat dikenakan. Tekstur serat viscose alaminya ringan, tidak licin, mudah dibentuk tegak rapi di dahi, serta memberi siluet drape yang sangat rapi dan berkelas tanpa perlu banyak jarum pentul. Sangat nyaman untuk aktivitas harian, kuliah, kerja, hingga acara formal. Tersedia dalam 62 pilihan warna lengkap: Midnight, White, Redwood, Black, Shadow, Dusty Rose, Mahogany, Amber, Bistre, Peony, Ivory, Barley, Oyster, Tobago, Iced Oat, Soyabean, Coffee Bean, Emerald, Moon, Plum Chocolate, Stone, Mapple, Umber Brown, Kurobeen, Rich Cocoa, Chocolate, Gray, Strom, Opium, Beige, Vintage Cream, Mountain, Sand, Dusty, Morning Frost, Soft Taro, Sky Blue, Copper, Soft Yellow, Marble, Wood, Ash, Chestnut, Taupe, Blush, Pearl, Black Amber, Dark Olive, Roman Coffee, Brownies, Smoke, Umber, Warm Ivory, Milk, Corn Blue, Light Blue, Slate Grey, Sugar Plum, Walnuts, Mostang, Caramel, dan Light Kurobeen.',
+    fabric: '100% Premium Viscose (Super Soft, Breathable, Ringan, Adem & Flowy Meleyot Cantik)',
+    sizes: 'Ukuran Panjang Standar Pashmina Syar\'i (± 180 x 75 cm)',
+    lalaNote:
+      'Bahan viscose ini bener-bener primadona pashmina! Jatuhnya halus banget, adem di kepala, gampang banget diatur gak gampang geser, dan warna Midnight ini bikin kulit kelihatan lebih cerah dan elegan!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/1gKQuuKWCz',
+  },
 
   // --- AKSESORIS ---
   {

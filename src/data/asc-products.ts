@@ -502,7 +502,7 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     description:
       'Pashmina instan 2-in-1 menyatu dengan inner ciput premium (Phasmina Instan Simple Elegan — Fashion Hijab Modern). Didesain praktis tanpa perlu peniti atau jarum pentul, dengan bahan premium yang lembut, sejuk, adem, dan tidak menerawang sepanjang hari. Tampil anggun, rapi, dan tetap syar\'i dengan aksen lipatan drape manis di samping. Tersedia dalam 49 pilihan warna lengkap: Cocoa, Ivory, Broken White, Warm Beige, Light Olive, Maroon, Grey Plum, Black, Grey, Soft Mint, Ice Blue, Cooper, Woody, Cappucino, Brick Red, Burgundy, Berry, Dusty Rose, Salem, Tiramisu, Cloudy, Snowy, Lilac, Mauve, Beige, Almond, Tan, Sand, Green, Brown, Mustard, Dark Army, Baby Green, Sage, Bottle, Terracotta, Zaitun, Dusty Blue, Blossom Pink, Denim, Periwinkle Blue, Navy, Misty Grey, Fossil, Dark Grey, Hazelnut, Dusty Pink, Deep Brown, dan Wardah.',
     fabric: 'Chiffon / Ceruty Babydoll Premium + Inner Jersey Menyatu (Lembut, Adem & Tidak Menerawang)',
-    sizes: 'Ukuran Panjang Standar Pashmina Instan Syar\'i (All Size)',
+    sizes: '180 x 75 cm',
     lalaNote:
       'Solusi tampil rapi tanpa ribet! Pashmina instan yang udah nyatu sama inner-nya ini bener-bener penolong waktu buru-buru. Gak perlu cari peniti lagi, bahannya adem dan flowy banget, aksen lipitannya bikin look kelihatan anggun, rapi, dan syar\'i sepanjang hari.',
     platforms: ['shopee'],
@@ -525,7 +525,7 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     description:
       'Pashmina bahan viscose premium yang terkenal super lembut, flowy, adem, dan jatuh anggun saat dikenakan. Tekstur serat viscose alaminya ringan, tidak licin, mudah dibentuk tegak rapi di dahi, serta memberi siluet drape yang sangat rapi dan berkelas tanpa perlu banyak jarum pentul. Sangat nyaman untuk aktivitas harian, kuliah, kerja, hingga acara formal. Tersedia dalam 62 pilihan warna lengkap: Midnight, White, Redwood, Black, Shadow, Dusty Rose, Mahogany, Amber, Bistre, Peony, Ivory, Barley, Oyster, Tobago, Iced Oat, Soyabean, Coffee Bean, Emerald, Moon, Plum Chocolate, Stone, Mapple, Umber Brown, Kurobeen, Rich Cocoa, Chocolate, Gray, Strom, Opium, Beige, Vintage Cream, Mountain, Sand, Dusty, Morning Frost, Soft Taro, Sky Blue, Copper, Soft Yellow, Marble, Wood, Ash, Chestnut, Taupe, Blush, Pearl, Black Amber, Dark Olive, Roman Coffee, Brownies, Smoke, Umber, Warm Ivory, Milk, Corn Blue, Light Blue, Slate Grey, Sugar Plum, Walnuts, Mostang, Caramel, dan Light Kurobeen.',
     fabric: '100% Premium Viscose (Super Soft, Breathable, Ringan, Adem & Flowy Meleyot Cantik)',
-    sizes: 'Ukuran Panjang Standar Pashmina Syar\'i (± 180 x 75 cm)',
+    sizes: '180 x 75 cm',
     lalaNote:
       'Bahan viscose ini bener-bener primadona pashmina! Jatuhnya halus banget, adem di kepala, gampang banget diatur gak gampang geser, dan warna Midnight ini bikin kulit kelihatan lebih cerah dan elegan!',
     platforms: ['shopee'],

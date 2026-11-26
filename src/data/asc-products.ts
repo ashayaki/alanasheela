@@ -324,6 +324,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/4VefX8eEdk',
   },
+  {
+    id: 'asc-tp-06',
+    name: 'Kemeja Japandi Style Lengan Panjang — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Brown (Tersedia 3 Pilihan Warna: Brown, Blue, Green)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '3rb+ terjual (895 ulasan)',
+    image: '/products/kemeja-japandi-style-lengan-panjang.jpg',
+    badge: 'Japandi Style (4.9★)',
+    isLalaPick: true,
+    description:
+      'Kemeja wanita bergaya Japandi (Japanese-Scandinavian) dengan potongan kancing samping asimetris yang unik, minimalis, dan estetik. Menampilkan motif kotak-kotak earth tone yang timeless, rapi, dan chic. Sangat nyaman dan adem dipakai seharian untuk aktivitas kuliah, ngantor, hangout santai, maupun kencan akhir pekan. Tersedia dalam 3 pilihan warna estetik: Brown, Blue, dan Green. Sangat serasi dipadukan dengan Ivory Skirt, Chocolate Skirt, serta hijab warna earth tone (Beige Cream, Mocha, Taupe, Olive Beige, atau Chocolate).',
+    fabric: 'Katun Linen Premium Bertekstur (Adem, Ringan, Tidak Menerawang & Nyaman Seharian)',
+    sizes: 'S, M, L, XL',
+    lalaNote:
+      'Kemeja Japandi ini bener-bener effortless dan estetik banget buat dipakai kuliah atau kerja! Model kancing sampingnya bikin beda dari kemeja biasa, motif plaid earth tone-nya kalem dan gampang banget dipadu rok A-line atau kulot.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/80EXmW7jgO',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

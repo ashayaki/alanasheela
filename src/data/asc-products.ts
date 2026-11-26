@@ -301,6 +301,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/3g5T9ND9tG',
   },
+  {
+    id: 'asc-tp-05',
+    name: 'Blouse Kerut Wanita Lengan Panjang Motif Cantik — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: '8 Pilihan Motif (Blossom, Rosy, Rose Blue, Bloom, Leaf, Floral, Salmon, Mahogany Plain)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '861 terjual (174 ulasan)',
+    image: '/products/blouse-kerut-wanita-lengan-panjang.jpg',
+    badge: 'Blouse Kerut (4.9★)',
+    isLalaPick: true,
+    description:
+      'Blouse kerut wanita lengan panjang dengan aksen kerut pinggang feminin yang elastis dan memberi ilusi siluet ramping proporsional. Desain leher shanghai manis dan lengan panjang wudhu-friendly. Warna menyesuaikan 8 pilihan motif estetik yang anggun dan tidak pasaran: Blossom, Rosy, Rose Blue, Bloom, Leaf, Floral, Salmon, dan Mahogany Plain. Sangat cantik dipadukan dengan A-line skirt (Ivory, Chocolate, Cream Pleated, atau Black Maxi) serta hijab warna netral (Beige, Taupe, Mocca, Dusty Pink, atau Dark Brown) untuk tampilan elegan harian maupun acara semi-formal.',
+    fabric: 'Rayon / Katun Silk Motif Premium (Adem, Ringan, Lembut & Flowy Cantik)',
+    sizes: 'All Size',
+    lalaNote:
+      'Blouse kerut ini motifnya bener-bener artistik dan bikin kelihatan ramping seketika berkat kerutan di pinggangnya! Bahannya adem, jatuh anggun, dan gampang banget dimix & match pakai rok A-line warna earth tone atau netral.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/4VefX8eEdk',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

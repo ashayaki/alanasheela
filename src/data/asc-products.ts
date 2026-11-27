@@ -346,6 +346,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/7AfRzuYHuS',
   },
+  {
+    id: 'asc-ab-07',
+    name: 'Abaya Cheongsam Anti UV Kancing Mutiara Shanghai — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Navy (Tersedia 11 Pilihan Warna: Hitam, Mahogany, Smoke, Emerald, Tanah, Mauve, Maciato, Cream, Burgundy, Caramel, Putih BW)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '2rb+ terjual (622 ulasan)',
+    image: '/products/abaya-cheongsam-anti-uv-navy.jpg',
+    badge: 'Cheongsam Look (4.8★)',
+    isLalaPick: true,
+    description:
+      'Abaya modern beraksen Cheongsam oriental mewah (Simple • Elegant • Timeless) yang dibuat dari material Anti-UV premium dengan karakteristik sejuk, lembut di kulit, dan jatuh flowy anggun (Look Elegant in Every Step ♡). Menonjolkan kerah Mandarin tegak berhias deretan kancing toggle Shanghai mutiara elegan di bagian depan tengah, serta ujung manset lengan bertali pita adjustable yang manis dan wudhu-friendly. Potongan longgar syari yang santun, adem, dan menyamarkan lekuk tubuh secara berkelas untuk pengajian, umroh, hari raya Lebaran, pesta, hingga acara formal. Tersedia dalam ukuran M, L, dan XL serta 11 pilihan warna memukau.',
+    fabric: 'Kain Anti-UV Premium Adem & Lembut (Kancing Shanghai Mutiara & Lengan Tali Adjustable)',
+    sizes: 'M, L, XL',
+    lalaNote:
+      'Abaya model Cheongsam ini unik dan anggun banget! Aksen kancing Shanghai berhias mutiaranya ngasih sentuhan oriental mewah yang beda dari abaya biasa. Lengannya ada tali serut yang manis dan wudhu friendly, plus bahannya anti-UV jadi adem banget dipakai seharian!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/5qA4QtvvaA',
+  },
 
   // --- TOPS (ATASAN) ---
   {

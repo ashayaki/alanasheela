@@ -439,6 +439,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/4B1q8WJ90v',
   },
+  {
+    id: 'asc-tp-11',
+    name: 'Blouse Lengan Balon Rayon Motif Sweet Elegance — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Flower Orange / Warm Mustard (Tersedia 9 Motif: Flower Orange, Polka Pink, Rainbow, Pinkies, Nude, Blue Orange, Tulips, Blue, Grey)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '509 terjual (135 ulasan)',
+    image: '/products/blouse-lengan-balon-rayon-motif-sweet-elegance.jpg',
+    badge: 'Lengan Balon (4.9★)',
+    isLalaPick: true,
+    description:
+      'Blouse wanita motif bunga lengan balon bergaya Sweet Elegance (Simple Look, Big Style ♡) dengan kerutan pinggang elastis (smock waist peplum) yang memberi siluet ramping dan potongan lengan balon berujung kerut yang manis. Terbuat dari material Rayon Motif premium yang adem, halus, ringan, dan jatuh sangat cantik saat dipakai seharian. Sangat pas untuk dipadukan dengan rok plisket maupun rok satin flowy bernuansa hangat (Mustard, Cream, Brown, Beige). Hadir dalam ukuran All Size leluasa (LD 120 cm, Panjang 65 cm) dengan 9 pilihan varian motif menawan: Flower Orange, Polka Pink, Flower Rainbow, Flower Pinkies, Flower Nude, Flower Blue Orange, Flower Tulips, Flower Blue, dan Flower Grey.',
+    fabric: 'Rayon Motif Premium (Super Adem, Halus, Ringan & Nyaman Seharian)',
+    sizes: 'All Size (LD 120 cm, PB 65 cm)',
+    lalaNote:
+      'Blouse lengan balon ini gemas dan manis banget! Motif Flower Orange-nya bernuansa warm mustard yang cerah tapi tetap kalem. Detail kerut pinggangnya bikin kelihatan ramping dan proporsional. Dipadu rok plisket cream atau rok satin flowy langsung auto anggun!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/1W14yZaGFJ',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

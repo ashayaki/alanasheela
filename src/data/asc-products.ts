@@ -347,6 +347,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/80EXmW7jgO',
   },
+  {
+    id: 'asc-tp-07',
+    name: 'Kemeja Renda Premium Elegant Casual — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Baby Blue (Tersedia 4 Pilihan Warna: Off-white, Baby Blue, Blush Pink, Butter Yellow)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '942 terjual (325 ulasan)',
+    image: '/products/kemeja-renda-premium-baby-blue.jpg',
+    badge: 'Kemeja Renda (4.9★)',
+    isLalaPick: true,
+    description:
+      'Kemeja atasan wanita bergaya Elegant Casual dengan detail bordir renda putih mewah (lace trim) yang menghiasi bagian depan dada, lengan manset, dan keliman bawah. Dilengkapi kancing mutiara manis berkerah shanghai dan siluet peplum ramping yang memberi kesan anggun dan proporsional. Sangat nyaman dan sejuk dipakai seharian untuk acara pesta, kerja, semi-formal, maupun hangout elegan. Tersedia dalam 4 pilihan warna pastel lembut: Baby Blue, Off-white, Blush Pink, dan Butter Yellow, dengan pilihan ukuran Reguler dan Jumbo. Sangat serasi dipadukan dengan satin maxi skirt (Silver Grey, Champagne Gold, atau Mocha) serta hijab senada.',
+    fabric: 'Katun Poplin / Linen Silk Premium + Aksen Renda Brokat Bordir Putih Halus',
+    sizes: 'Reguler & Jumbo',
+    lalaNote:
+      'Kemeja renda Baby Blue ini bener-bener manis dan kelihatan mewah banget! Bordir renda putih dan kancing mutiaranya ngasih kesan vintage elegan yang mahal. Tinggal dipadukan rok satin silver grey atau champagne buat look kondangan atau semi-formal yang anggun!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/4LLG6TUeRv',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

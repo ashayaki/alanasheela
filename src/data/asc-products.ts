@@ -370,6 +370,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/4LLG6TUeRv',
   },
+  {
+    id: 'asc-tp-08',
+    name: 'Funnel Neck Blouse Anti Lecek Japan Style — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Black (Tersedia 4 Pilihan Warna: Black, Ivory, Beige, Dark Brown)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '10rb+ terjual (2,7rb ulasan)',
+    image: '/products/funnel-neck-blouse-anti-lecek-black.jpg',
+    badge: 'Japan Style (4.9★)',
+    isLalaPick: true,
+    description:
+      'Blouse wanita bergaya Japan Style modern dengan kerah funnel neck tinggi dan aksen deretan kancing gold mewah berpotongan asimetris. Dibuat dari material Polyester premium anti lecek (ironless) yang lembut, jatuh anggun, dan tidak mudah kusut meski dipakai beraktivitas padat seharian. Memberi siluet ramping berkelas (Simple Look, Big Style ♡) yang sangat cocok untuk outfit ngantor profesional, kuliah, meeting formal, hingga acara malam. Tersedia dalam 4 pilihan warna netral elegan: Black, Ivory, Beige, dan Dark Brown, dengan ukuran S, M, L, dan XL. Sangat serasi dipadukan dengan satin maxi skirt (Satin Champagne, Satin Cream, Satin Brown, atau Satin Black).',
+    fabric: 'Polyester Premium Anti Lecek (Ironless, Lembut, Sejuk & Jatuh Rapi)',
+    sizes: 'S, M, L, XL',
+    lalaNote:
+      'Blouse funnel neck ini andalan banget kalau lagi buru-buru karena bahannya beneran anti lecek tanpa perlu setrika lama! Aksen kancing gold-nya ngasih statement mewah ala Japan style, apalagi warna Black dipadu rok satin champagne, kelihatan mahal dan berkelas banget!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/8KrOsOQRk3',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

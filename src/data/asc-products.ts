@@ -277,6 +277,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/2qWShSLHCf',
   },
+  {
+    id: 'asc-ab-04',
+    name: 'Abaya Ceruty Babydoll Layer Swarovski Elegance — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Burgundy (Tersedia 4 Pilihan Warna: Burgundy, Hitam, Mahogany, Putih)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.7,
+    soldCount: '2rb+ terjual (728 ulasan)',
+    image: '/products/abaya-ceruty-babydoll-layer-swarovski-burgundy.jpg',
+    badge: 'Mix Swarovski (4.7★)',
+    isLalaPick: true,
+    description:
+      'Abaya wanita modern bertema Premium Abaya Elegance (Simple • Elegant • Timeless) dengan model layer outer menyatu berbahan Ceruty Babydoll premium yang flowy, lembut, dan sejuk berfuring penuh. Dipercantik aksen taburan kristal Swarovski berkilau motif bunga/starburst mewah serta piping bordir mutiara halus di sepanjang tepian layer dan manset lengan. Potongan longgar syari yang santun, wudhu-friendly, dan dilengkapi bukaan depan busui-friendly. Pilihan istimewa untuk pengajian akbar, umroh, hari raya Lebaran, pesta, hingga wisuda. Tersedia dalam ukuran M, L, XL, dan XXL dengan 4 warna anggun: Burgundy, Hitam, Mahogany, dan Putih.',
+    fabric: 'Ceruty Babydoll Premium Full Furing mix Swarovski Crystals & Bordir Mutiara (Busui Friendly)',
+    sizes: 'M, L, XL, XXL',
+    lalaNote:
+      'Abaya Burgundy ini bener-bener mewah dan anggun! Model layer outer-nya bikin siluet jatuh flowy dan menyamarkan bentuk tubuh secara syar\'i. Kilau kristal Swarovski dan piping mutiaranya ngasih sentuhan mahal yang pas banget untuk kondangan atau Lebaran!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/6VPlBUoHtx',
+  },
 
   // --- TOPS (ATASAN) ---
   {

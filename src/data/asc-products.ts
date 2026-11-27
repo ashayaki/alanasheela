@@ -254,6 +254,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/7AfRnv5bvM',
   },
+  {
+    id: 'asc-ab-03',
+    name: 'Abaya Cupro Look Premium Bordir Floral Lace — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Black (Pilihan Warna Toko: Black, Beige, Nude, Grey)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '34 terjual (12 ulasan)',
+    image: '/products/abaya-cupro-look-premium-bordir-black.webp',
+    badge: 'Cupro Look (4.9★)',
+    isLalaPick: true,
+    description:
+      'Abaya premium modern bergaya monokrom berkelas (Elegant in Black, Adorned in Lace) yang dibuat dari material Cupro Look halus dengan karakteristik adem, silky touch, berbobot, dan jatuh flowy anggun. Dihiasi detail bordir floral lace mewah di ujung pergelangan tangan yang wudhu-friendly, kerah round neckline dengan resleting depan (front zip closure) yang busui-friendly, serta siluet flowing full-length yang syari dan elegan. Sangat ideal untuk pengajian, umroh, hari raya Lebaran, pesta, hingga acara formal. Tersedia dalam ukuran M, L, XL, dan XXL.',
+    fabric: 'Cupro Look Premium + Bordir Floral Lace Halus (Adem, Silky Touch, Resleting Depan Busui)',
+    sizes: 'M, L, XL, XXL',
+    lalaNote:
+      'Abaya Cupro Look warna hitam ini super elegan dan timeless! Bahannya sejuk banget, jatuh berbobot ala sutra, dan detail bordir renda bunga di manset tangannya ngasih sentuhan kontras yang mewah tanpa berlebihan. Tinggal dipadu pashmina nude/beige, look-nya auto stunning!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/2qWShSLHCf',
+  },
 
   // --- TOPS (ATASAN) ---
   {

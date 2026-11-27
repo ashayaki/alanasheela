@@ -231,6 +231,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/gRrL7uFLV',
   },
+  {
+    id: 'asc-ab-02',
+    name: 'Premium Abaya Simpel Mewah Rania Golden Crush — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Rania Blush Pink (Tersedia 9 Pilihan Warna: Deep Taupe, Mahogany, Burgundy, Hitam, Nevi, Machiato, Butter Yellow, Blush Pink, Light Blue)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '7rb+ terjual (2,8rb ulasan)',
+    image: '/products/premium-abaya-simpel-mewah-rania-blush-pink.webp',
+    badge: 'Golden Crush (4.9★)',
+    isLalaPick: true,
+    description:
+      'Abaya simpel mewah bernuansa modern minimalis (Soft in Blush, Elegant in Every Step) dengan bahan Golden Crush bertekstur subtle jacquard yang jatuh flowy dan berkilau anggun. Dilengkapi Mandarin collar rapi, resleting depan praktis (front zip closure) yang busui-friendly, serta aksen rumbai halus (fringed sleeve cuffs) pada ujung lengan manset yang wudhu-friendly. Potongan longgar syari yang santun dan sangat nyaman untuk pengajian, umroh, hari raya Lebaran, hingga pesta keluarga. Tersedia dalam ukuran M, L, dan XL serta 9 pilihan warna anggun.',
+    fabric: 'Bahan Golden Crush Premium Tekstur Subtle Jacquard (Mandarin Collar, Front Zip & Fringed Cuffs)',
+    sizes: 'M, L, XL',
+    lalaNote:
+      'Abaya Rania Blush Pink ini bener-bener definisi simpel tapi kelihatan mewah banget! Bahan Golden Crush-nya punya tekstur jacquard halus dengan kilau yang mahal dan jatuh anggun. Resleting depannya busui-friendly, dan aksen rumbai di ujung tangannya manis banget!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/7AfRnv5bvM',
+  },
 
   // --- TOPS (ATASAN) ---
   {

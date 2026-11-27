@@ -300,6 +300,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/6VPlBUoHtx',
   },
+  {
+    id: 'asc-ab-05',
+    name: 'Gamis Abaya Silk Anti UV Busui Wavy Pearl — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Mahogany (Tersedia 4 Pilihan Warna: Mahogany, Charcoal, Retro Sage, Burgundy)',
+    price: 0,
+    originalPrice: 0,
+    rating: 5.0,
+    soldCount: '155 terjual (64 ulasan)',
+    image: '/products/gamis-abaya-silk-anti-uv-mahogany.jpg',
+    badge: 'Silk Anti UV (5.0★)',
+    isLalaPick: true,
+    description:
+      'Gamis abaya modern premium bergaya minimalis berkelas (Simple • Elegant • Timeless) dengan material inovatif Silk Anti-UV yang super lembut, adem dingin di kulit, berkilau elegan, dan memberikan proteksi optimal dari paparan sinar matahari. Menampilkan aksen bordir gelombang (wavy cord trim) dengan deretan butiran mutiara mewah di bagian depan tengah, serta manset lengan berkontras warna nude/cream yang wudhu-friendly. Dilengkapi bukaan depan busui-friendly dan potongan A-line longgar syari yang jatuh flowy anggun. Pilihan sempurna untuk ibadah umroh/haji, pengajian, hari raya Lebaran, hingga acara formal. Tersedia dalam ukuran XS-S, M-L, dan XL-XXL dengan pilihan warna eksklusif: Mahogany, Charcoal, Retro Sage, dan Burgundy.',
+    fabric: 'Silk Anti-UV Premium Adem & Lembut (Wavy Pearl Embroidery, Manset Kontras & Busui Friendly)',
+    sizes: 'XS-S, M-L, XL-XXL',
+    lalaNote:
+      'Abaya Mahogany ini dapet rating sempurna 5.0 karena bahannya juara banget: Silk Anti-UV yang adem dingin dan flowy! Detail bordir gelombang mutiara di depannya ngasih kesan vertikal yang bikin siluet kelihatan lebih tinggi dan langsing, ditambah manset cream-nya manis banget!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/8VApZpURWq',
+  },
 
   // --- TOPS (ATASAN) ---
   {

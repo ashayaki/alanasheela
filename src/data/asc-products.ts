@@ -462,6 +462,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/1W14yZaGFJ',
   },
+  {
+    id: 'asc-tp-12',
+    name: 'Blus Sifon Lengan Panjang Bordir Bunga Sweet Elegance — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Cream Bordir Mawar (Pilihan Paduan: Chocolate, Cream, Beige, Dusty Taupe)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '10rb+ terjual (3,9rb ulasan)',
+    image: '/products/blus-sifon-lengan-panjang-bordir-bunga.jpg',
+    badge: 'Best Seller (4.8★)',
+    isLalaPick: true,
+    description:
+      'Blus sifon lengan panjang bertema Sweet Elegance (Simple Look, Big Style ♡) dengan bordir bunga mawar merah kecil yang sangat manis, deretan kancing mutiara vintage di bagian depan, kerutan smock waist elastis yang membentuk siluet pinggang ramping, serta pergelangan tangan berkerut ruffle feminin. Menggunakan material sifon bertekstur premium yang ringan, adem, dan jatuh anggun (Two Style One Blouse ♡): tampil berani dan mewah dipadukan rok satin Chocolate, atau tampil anggun berkelas dipadukan rok satin Cream. Tersedia dalam ukuran S, M, dan L dengan ulasan kepuasan tinggi 4.8 bintang dari lebih dari 10 ribu pembeli.',
+    fabric: 'Sifon Bertekstur Premium + Bordir Bunga Mawar & Kancing Mutiara Halus',
+    sizes: 'S, M, L',
+    lalaNote:
+      'Blus sifon ini beneran definisi Soft Look & Timeless Style! Bordir bunga mawar merah kecilnya manis banget dan kancing mutiaranya ngasih kesan vintage mewah. Kerutan smock waist-nya bikin pinggang auto kelihatan ramping. Dipadu rok satin chocolate atau cream langsung siap tampil memukau!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/8pnfjPILAb',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

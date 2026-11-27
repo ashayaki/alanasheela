@@ -393,6 +393,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/8KrOsOQRk3',
   },
+  {
+    id: 'asc-tp-09',
+    name: 'Blouse Hijab Kekinian Smock Waist Soft Elegance — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Sage Blue Motif (Tersedia 8 Pilihan Warna/Motif: Peony, Rosella, Aurelie, Lily Pink, Marbel, Caramel, Selena, Sora)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '947 terjual (192 ulasan)',
+    image: '/products/blouse-hijab-kekinian-smock-waist-soft-elegance.jpg',
+    badge: 'Trending Blouse (4.9★)',
+    isLalaPick: true,
+    description:
+      'Blouse hijab kekinian bergaya Soft Elegance (Simple Look, Big Style ♡) dengan kerut pinggang smock waist elastis yang memberikan siluet ramping serta aksen pita tali lengan yang manis dan feminin. Sangat versatile untuk Two Style One Blouse: tampil chic dengan Celana Wide Leg (Look 1) atau anggun menawan dipadukan Rok Maxi Flowy (Look 2). Dibuat dari material katun rayon silk yang lembut, sejuk, dan nyaman seharian untuk kuliah, ngantor, maupun hangout. Tersedia dalam ukuran Standar dan Jumbo, serta 8 pilihan warna/motif cantik: Peony, Rosella, Aurelie, Lily Pink, Marbel, Caramel, Selena, dan Sora.',
+    fabric: 'Katun Rayon Silk Halus & Adem (Smock Waist Elastis, Aksen Tali Lengan Manis)',
+    sizes: 'Standar & Jumbo',
+    lalaNote:
+      'Blouse ini definisi Two Style One Blouse banget! Kerut smock di pinggangnya auto bikin siluet ramping tanpa ketat, dan detail pita tali di lengannya feminin banget. Dipadu kulot wide leg buat casual look atau rok maxi flowy buat feminine look, dua-duanya cakeeep banget!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/3qOzblM9na',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

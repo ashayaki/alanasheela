@@ -416,6 +416,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/3qOzblM9na',
   },
+  {
+    id: 'asc-tp-10',
+    name: 'Blouse Tunik Bunga Sweet Elegance — Lala Look',
+    category: 'tops',
+    categoryLabel: 'Tops',
+    color: 'Dusty Mauve (Tersedia 4 Pilihan Warna: Butter, Dusty, Hitam, Choco)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '1rb+ terjual (434 ulasan)',
+    image: '/products/blouse-tunik-bunga-sweet-elegance.jpg',
+    badge: 'Sweet Elegance (4.8★)',
+    isLalaPick: true,
+    description:
+      'Blouse tunik wanita motif bunga elegan bertema Sweet Elegance (Simple Look, Big Style ♡) dengan kerah kemeja rapi dan potongan A-line flowy yang memberi siluet ramping serta santun. Sangat versatile untuk outfit kondangan, acara semi-formal, arisan, hingga jalan santai. Dibuat dari material katun silk halus bermotif floral etnik yang adem, jatuh anggun, dan nyaman beraktivitas seharian. Tersedia dalam ukuran leluasa: UK L (LD 115), UK XL (LD 120), dan UK XXL (LD 130), dengan 4 pilihan warna aktif menawan: Butter, Dusty (Mauve), Hitam, dan Choco.',
+    fabric: 'Katun Silk Premium Motif Bunga Etnik (Adem, Jatuh Anggun, Wudhu & Busui Friendly)',
+    sizes: 'UK L (LD 115), UK XL (LD 120), UK XXL (LD 130)',
+    lalaNote:
+      'Tunik bunga ini beneran sweet dan anggun banget! Motif floral etniknya manis tanpa kelihatan ramai, potongannya leluasa bikin nyaman seharian. Mau dipakai kondangan dipadu rok maxi atau jalan santai dipadu celana lurus putih, tetep kelihatan feminine & stylish!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/4B1q8WJ90v',
+  },
 
   // --- BOTTOMS (BAWAHAN) ---
   {

@@ -323,6 +323,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/8VApZpURWq',
   },
+  {
+    id: 'asc-ab-06',
+    name: 'One Set Abaya Tunik & Rok Layer Bordir Lace Lilac — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Lilac (Tersedia 8 Pilihan Warna: White, Lilac, Latte, Black, Light Purple, Navy, Nude Pink, Denim Blue)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '10rb+ terjual (4,8rb ulasan)',
+    image: '/products/one-set-abaya-tunik-rok-layer-bordir-lilac.jpg',
+    badge: 'One Set Abaya (4.9★)',
+    isLalaPick: true,
+    description:
+      'One set abaya tunik dan rok panjang bergaya modern luxury (Simple • Elegant • Timeless) yang sangat anggun dan memesona untuk hari raya Lebaran, pesta, kondangan, maupun acara keluarga. Menampilkan atasan tunik berlayer pointed asimetris yang flowy dan memberi siluet ramping, dipercantik dengan bordir lace bunga putih/krem mewah di sepanjang kerah V-neckline hingga dada depan. Menggunakan bahan jacquard silk premium yang super lembut di kulit, adem, bertekstur berkilau halus, dan jatuh sangat anggun. Sudah termasuk satu set atasan tunik dan rok maxi senada. Tersedia dalam ukuran M dan L dengan 8 pilihan warna elegan: White, Lilac, Latte, Black, Light Purple, Navy, Nude Pink, dan Denim Blue.',
+    fabric: 'Jacquard Silk Premium Shimmer mix Bordir Lace Mewah (Lembut di Kulit, Flowy, Adem & Tidak Menerawang)',
+    sizes: 'M, L',
+    lalaNote:
+      'One set abaya tunik & rok warna Lilac ini beneran definisi anggun dan mewah untuk Lebaran! Potongan layer asimetrisnya bikin kelihatan tinggi dan langsing, ditambah bordir renda bunganya halus banget. Bahannya silky adem dan jatuh flowy seharian!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/7AfRzuYHuS',
+  },
 
   // --- TOPS (ATASAN) ---
   {

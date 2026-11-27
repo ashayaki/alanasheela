@@ -183,6 +183,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/BVbbp7IvA',
   },
+  {
+    id: 'asc-gm-08',
+    name: 'Premium Lace Gamis Floral Embroidery — Lala Look',
+    category: 'gamis',
+    categoryLabel: 'Gamis',
+    color: 'Navy (Tersedia 4 Pilihan Warna: Mahogany, Burgundy, Hitam, Navy)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '10rb+ terjual (262 ulasan)',
+    image: '/products/premium-lace-gamis-floral-navy.webp',
+    badge: 'Kondangan & Wisuda (4.8★)',
+    isLalaPick: true,
+    description:
+      'Gamis pesta premium bernuansa mewah nan elegan (Elegant in Navy, Timeless in Every Detail) dengan lapisan luar Floral Embroidered Lace eksklusif dan inner satin lembut yang sejuk. Dipermanis dengan Mandarin collar berhias mutiara halus, deretan pearl bead accents pada belahan depan, serta aksen bros silver floral tassel di pinggang yang memberikan siluet ramping berkelas. Sangat sempurna untuk momen istimewa seperti kondangan, Lebaran, wisuda, maupun pesta formal. Tersedia dalam ukuran M, L, dan XL dengan 4 pilihan warna memikat: Mahogany, Burgundy, Hitam, dan Navy.',
+    fabric: 'Premium Floral Embroidered Lace mix Satin Silk (Pearl Bead Accents, Mandarin Collar & Silver Tassel Brooch)',
+    sizes: 'M, L, XL',
+    lalaNote:
+      'Gamis Navy ini beneran definisi luxury & timeless! Perpaduan lace bordir bunga sama aksen pearl beads di sepanjang belahan depannya kelihatan mahal banget. Ditambah silver floral tassel di pinggang bikin look makin ramping dan stunning untuk kondangan, wisuda, maupun Lebaran! Cantik dipadukan hijab warna beige, navy, atau silver grey.',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/BVhRI4nIo',
+  },
 
   // --- ABAYA ---
   {

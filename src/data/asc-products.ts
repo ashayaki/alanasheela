@@ -1553,4 +1553,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/8VAkhHHyE4',
   },
+  {
+    id: 'asc-sp-13',
+    name: 'Sling Back Pointed-toe Kitten Heels 5cm Simple Minimalist — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: 'Coffee (Tersedia 3 Pilihan Warna: Coffee, Oat, Midnight)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '3rb+ terjual (1,1rb ulasan)',
+    image: '/products/sling-back-pointed-toe-heels-coffee.jpg',
+    badge: 'Kitten Heels 5cm (4.8★)',
+    isLalaPick: true,
+    description:
+      'Sepatu heels wanita model Sling Back Pointed-toe bergaya simple minimalist yang sangat elegan dan nyaman untuk pesta, wisuda, kondangan, maupun acara semi-formal. Memiliki tinggi hak kitten heels 5 cm berdesain fluted melengkung yang anggun dan stabil tanpa membuat kaki cepat lelah. Dipercantik aksen strap depan berhias ornamen kristal Flower Beads yang manis serta tali belakang adjustable backstrap dengan gesper geser yang pas di kaki agar lebih nyaman dan mantap saat melangkah. Terbuat dari material premium leather lembut dengan insole empuk. Tersedia dalam ukuran 38 hingga 41 dengan 3 pilihan warna netral elegan: Coffee, Oat, dan Midnight.',
+    fabric: 'Premium Faux Leather Halus + Ornamen Flower Beads Kristal + Hak Kitten 5cm & Insole Busa Empuk',
+    sizes: 'Size 38 - 41',
+    lalaNote:
+      'Heels 5 cm model pointed ini bener-bener nyaman dan bikin kaki kelihatan ramping! Hak kitten 5 cm-nya pas banget—gak kependekan dan gak bikin pegal buat berdiri lama di acara wisuda atau kondangan. Aksen flower beads kristal di strap depannya manis banget, apalagi warna Coffee dan Oat-nya aesthetic parah!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/9fMoBOnv8Y',
+  },
 ];

@@ -1576,4 +1576,27 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/9fMoBOnv8Y',
   },
+  {
+    id: 'asc-sp-14',
+    name: 'Heels Slip On Wanita Formal Hak Pendek 2.5cm Simple Elegant — Lala Look',
+    category: 'sepatu',
+    categoryLabel: 'Sepatu',
+    color: 'Broken White (Tersedia 2 Pilihan Warna: Broken White & Midnight)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.8,
+    soldCount: '2rb+ terjual (773 ulasan)',
+    image: '/products/heels-slip-on-wanita-formal-broken-white.webp',
+    badge: 'Hak Pendek 2.5cm (4.8★)',
+    isLalaPick: true,
+    description:
+      'Sepatu heels slip-on wanita model slingback pointed-toe dengan lekukan scalloped cut yang cantik dan feminin ("2 Pilihan Warna Cantik — Sesuai dengan gaya-mu"). Memiliki tinggi hak pendek 2.5 cm yang sangat stabil dan empuk, cocok untuk mobilitas tinggi, kerja kantoran, kuliah, pesta santai, hingga acara formal. Dilengkapi tali belakang adjustable slingback strap dengan gesper geser elegan agar pas di tumit dan nyaman saat melangkah seharian. Tersedia dalam ukuran 37 hingga 39 dengan 2 pilihan warna klasik: Broken White (Calm & Classy, Best Seller) dan Midnight (Timeless Bold).',
+    fabric: 'Premium Faux Leather Lembut + Hak Pendek 2.5cm & Insole Busa Empuk (Scalloped Trim)',
+    sizes: 'Size 37 - 39',
+    lalaNote:
+      'Slip-on heels 2.5 cm ini andalan buat yang suka tampil elegan tapi tetap ingin nyaman seharian! Potongan kerah scalloped-nya manis banget bikin punggung kaki kelihatan jenjang. Broken white-nya clean & classy, pas dipadu dress maupun celana bahan!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/50aye0qiCB',
+  },
 ];

@@ -392,6 +392,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/4qHYLDGvAl',
   },
+  {
+    id: 'asc-ab-09',
+    name: 'Abaya Exclusive Embordire Twill Brush Look Cupro — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Soft Ocean (Tersedia Puluhan Pilihan Warna: Soft Ocean, Dark Indigo, Rich Indigo, Hot Matcha, Rose, Coffee, Wine, Blush, Truffle, Mahogany, dll — Cek Toko)',
+    price: 0,
+    originalPrice: 0,
+    rating: 5.0,
+    soldCount: '1rb+ terjual (756 ulasan)',
+    image: '/products/abaya-exclusive-embordire-twill-brush-soft-ocean.jpg',
+    badge: 'Look Cupro (5.0★)',
+    isLalaPick: true,
+    description:
+      'Abaya exclusive premium bergaya "Premium Abaya Elegance (Simple • Elegant • Timeless)" yang memancarkan pesona "Anggun dalam Kesederhanaan ♡". Menggunakan material inovatif Twill Brush dengan look cupro yang sangat mewah, bertekstur lembut dan adem di kulit, flowy jatuh berbobot, serta tidak menerawang. Dipercantik detail bordir eksklusif (Embordire) berbentuk pigura oval anggun pada kedua ujung lengan dan bagian bawah gamis. Dilengkapi bukaan resleting depan (busui friendly) serta siluet longgar A-line syar\'i yang sangat anggun dan leluasa. Sangat cocok dipadukan dengan hijab senada (Champagne Beige, Warm Taupe, Dusty Blue-Grey, Soft Ivory, atau Muted Peach) untuk hari raya Idul Fitri, silaturahmi formal, pengajian, maupun acara keluarga. Tersedia dalam ukuran M (sebagian varian warna cepat habis, disarankan langsung cek ketersediaan stok di toko).',
+    fabric: 'Premium Twill Brush (Look Cupro Halus, Lembut & Adem, Flowy Mewah) + Aksen Bordir Eksklusif',
+    sizes: 'Size M (Sebagian warna tidak tersedia, silakan langsung cek ketersediaan di toko)',
+    lalaNote:
+      'Abaya look cupro berbahan Twill Brush ini bener-bener definisi anggun dalam kesederhanaan! Aksen bordir bunganya manis banget di lengan dan bagian bawah rok. Bahannya adem lembut dan jatuh flowy. Varian warnanya buwanyak banget tapi sebagian cepat habis, jadi buruan cek stoknya langsung di toko ya!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/7fbjqPCDAm',
+  },
 
   // --- TOPS (ATASAN) ---
   {

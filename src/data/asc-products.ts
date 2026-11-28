@@ -369,6 +369,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/5qA4QtvvaA',
   },
+  {
+    id: 'asc-ab-08',
+    name: 'Abaya Premium Knit Loufer Printing — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Butter Yellow Motif (Tersedia 7 Pilihan Warna: Hitam, Pink Muda, Butter Yellow, Burgundy, Navy, Blue Denim, Mahogany)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '2rb+ terjual (727 ulasan)',
+    image: '/products/abaya-knit-loufer-printing-butter-yellow.jpg',
+    badge: 'Knit Loufer (4.9★)',
+    isLalaPick: true,
+    description:
+      'Abaya modern berkelas bergaya Premium Abaya Elegance (Simple • Elegant • Timeless) yang memancarkan pesona "Anggun dalam Kesederhanaan ♡". Dibuat dari material inovatif Knit Loufer Printing berkualitas tinggi dengan motif printing marmer lembut eksklusif, bertekstur rajut halus yang jatuh flowy, adem dingin di kulit, empuk, dan tidak menerawang. Memiliki potongan lengan lebar yang sangat nyaman dan wudhu-friendly serta siluet A-line longgar syari yang santun. Sangat serasi dipadukan dengan hijab layer asimetris bernuansa beige/earth tone untuk kajian, umroh, silaturahmi Lebaran, maupun daily wear mewah. Tersedia dalam ukuran M, L, dan XL serta 7 pilihan warna elegan: Hitam, Pink Muda, Butter Yellow, Burgundy, Navy, Blue Denim, dan Mahogany.',
+    fabric: 'Knit Loufer Printing Premium (Rajut Halus, Lembut & Adem, Flowy Berbobot, Tidak Menerawang)',
+    sizes: 'M, L, XL',
+    lalaNote:
+      'Abaya bahan Knit Loufer ini super adem dan bahannya empuk banget di kulit! Motif printing-nya soft dan berkelas, bikin penampilan kelihatan effortless elegant tanpa ribet. Potongan lengannya leluasa dan siluetnya longgar syar\'i, bener-bener definisi Anggun dalam Kesederhanaan ♡!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/4qHYLDGvAl',
+  },
 
   // --- TOPS (ATASAN) ---
   {

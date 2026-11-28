@@ -337,11 +337,11 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     badge: 'One Set Abaya (4.9★)',
     isLalaPick: true,
     description:
-      'One set abaya tunik dan rok panjang bergaya modern luxury (Simple • Elegant • Timeless) yang sangat anggun dan memesona untuk hari raya Lebaran, pesta, kondangan, maupun acara keluarga. Menampilkan atasan tunik berlayer pointed asimetris yang flowy dan memberi siluet ramping, dipercantik dengan bordir lace bunga putih/krem mewah di sepanjang kerah V-neckline hingga dada depan. Menggunakan bahan jacquard silk premium yang super lembut di kulit, adem, bertekstur berkilau halus, dan jatuh sangat anggun. Sudah termasuk satu set atasan tunik dan rok maxi senada. Tersedia dalam ukuran M dan L dengan 8 pilihan warna elegan: White, Lilac, Latte, Black, Light Purple, Navy, Nude Pink, dan Denim Blue.',
+      'One set abaya tunik dan rok panjang bergaya modern luxury (Simple • Elegant • Timeless) yang memancarkan pesona "Anggun dalam Kesederhanaan ♡", sangat memesona untuk hari raya Lebaran, pesta, kondangan, maupun acara keluarga. Menampilkan atasan tunik berlayer pointed asimetris yang flowy dan memberi siluet ramping, dipercantik dengan bordir lace bunga putih/krem mewah berhias deretan kancing mutiara di sepanjang dada depan serta manset lengan kancing mutiara yang nyaman. Menggunakan bahan jacquard silk premium yang super lembut di kulit, adem, berkilau halus, dan jatuh sangat flowy. Sudah termasuk satu set atasan tunik dan rok maxi senada. Sangat serasi dipadukan hijab warna Beige Champagne, Mocca, Dusty Pink, Lavender, atau Soft Grey.',
     fabric: 'Jacquard Silk Premium Shimmer mix Bordir Lace Mewah (Lembut di Kulit, Flowy, Adem & Tidak Menerawang)',
     sizes: 'M, L',
     lalaNote:
-      'One set abaya tunik & rok warna Lilac ini beneran definisi anggun dan mewah untuk Lebaran! Potongan layer asimetrisnya bikin kelihatan tinggi dan langsing, ditambah bordir renda bunganya halus banget. Bahannya silky adem dan jatuh flowy seharian!',
+      'One set abaya tunik & rok warna Lilac ini beneran definisi Anggun dalam Kesederhanaan ♡ untuk Lebaran! Potongan layer asimetrisnya bikin kelihatan tinggi dan langsing, ditambah bordir renda bunganya halus banget. Paling cantik dipadukan hijab warna Beige Champagne, Mocca, atau Lavender!',
     platforms: ['shopee'],
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/7AfRzuYHuS',

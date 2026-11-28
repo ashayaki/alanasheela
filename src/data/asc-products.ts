@@ -415,6 +415,29 @@ export const ASC_PRODUCTS: ASCProduct[] = [
     marketplaceName: 'Shopee',
     affiliateUrl: 'https://s.shopee.co.id/7fbjqPCDAm',
   },
+  {
+    id: 'asc-ab-10',
+    name: 'Black Abaya Grace in Golden Bloom Jetblack — Lala Look',
+    category: 'abaya',
+    categoryLabel: 'Abaya',
+    color: 'Black Jetblack (Tersedia 2 Pilihan Warna: Black & Gold)',
+    price: 0,
+    originalPrice: 0,
+    rating: 4.9,
+    soldCount: '1rb+ terjual (501 ulasan)',
+    image: '/products/black-abaya-grace-golden-bloom.jpg',
+    badge: 'Jetblack Mewah (4.9★)',
+    isLalaPick: true,
+    description:
+      'Abaya hitam eksklusif bergaya "Luxury Abaya — Elegance in Every Detail" yang memancarkan pesona "Tampil Anggun di Setiap Langkah ♡". Dibuat dari material Jetblack Premium berkualitas tinggi yang hitam pekat elegan, sangat lembut, jatuh flowy berbobot, adem, dan tidak menerawang. Dihiasi detail bordir bunga mekar bernuansa emas mewah (Golden Bloom) berpadu aksen butiran mutiara anggun di bagian dada kiri, manset pergelangan tangan yang wudhu-friendly, serta motif bunga menjalar artistik di sepanjang hem bawah rok. Dilengkapi lis bordir renda vertikal di bagian depan yang memberi siluet ramping dan jenjang. Sangat memukau untuk pesta malam, kondangan mewah, kajian formal, umroh, silaturahmi Lebaran, maupun acara formal lainnya. Tersedia dalam ukuran lengkap Size S, M, L, XL, hingga XXL dengan pilihan warna Black dan Gold.',
+    fabric: 'Premium Jetblack Tebal & Flowy (Hitam Pekat Elegan, Lembut & Adem) + Bordir Bunga Golden Bloom & Mutiara',
+    sizes: 'Size S, M, L, XL, XXL',
+    lalaNote:
+      'Abaya jetblack ini bener-bener definisi mewah dan berkelas! Warna hitam pekatnya ketemu bordir bunga emas bertabur mutiara bikin look kelihatan sultan banget. Bahannya jetblack premium jatuh flowy dan adem dipakai. Pilihan sizenya lengkap banget dari S sampai XXL, wajib punya buat acara formal atau Lebaran nanti!',
+    platforms: ['shopee'],
+    marketplaceName: 'Shopee',
+    affiliateUrl: 'https://s.shopee.co.id/2gD41qLmcP',
+  },
 
   // --- TOPS (ATASAN) ---
   {
